@@ -1,0 +1,31 @@
+        F_mean 
+        F_min 
+        F_max 
+        F_sum 
+        F_prod 
+        F_std 
+        F_mc 
+        F_zc 
+        F_iqr 
+        F_skew 
+        F_25 
+        F_75 
+        F_kr 
+        F_seg 
+        F_sep 
+
+$F_{mean}$ : Mean of the data points
+$F_{min}$ : Minimum of the data points
+$F_{max}$ : Maximum of the data points
+$F_{sum}$ : Sum of the data points
+$F_{prod}$ : Product of the data points
+$F_{std}$ : Standard deviation of the data points
+$F_{mc}$ : Mean crossing of the data points
+$F_{zc}$ : Zero crossing of the data points
+$F_{iqr}$ : Interquartile range of the data points
+$F_{skew}$ : Skewness of the data points
+$F_{25}$ : 25th percentile of the data points
+$F_{75}$ : 75th percentile of the data points
+$F_{kr}$ : Kurtosis of the data points
+$F_{seg}$ : Segmentation of the data points
+$F_{sep}$ : Separation of the data points

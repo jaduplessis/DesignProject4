@@ -6,16 +6,16 @@ for i = 1:length(USC)
     subject = USC(i).name;
 
     if startsWith(subject, 'Subject')
-        path = ['USC-HAD\' subject];
+        path = ['..\USC-HAD\' subject];
         files = dir(path);
 
-        for j = 1:length(USC)
+        for j = 1:length(files)
             filename = files(j).name;
             if ~startsWith(filename, '.')
                 file_path = [path '\' filename];
                 M = load(file_path);
 
-                save_path = ['ProcessedData\' subject];
+                save_path = ['RawData2\' subject];
                 reWrite(M, filename, save_path)
             end
 

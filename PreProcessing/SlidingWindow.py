@@ -30,7 +30,7 @@ class SlidingWindow:
         filename_components = file.split('_a')
 
         # Get subject number
-        subject = filename_components[0]
+        subject = filename_components[0].split('\\')[-1]
 
         # Split activity and trial number
         test_components = filename_components[1].split('t')
@@ -68,10 +68,6 @@ class SlidingWindow:
         return windows
 
 
-    def F_mean(self):
-        pass
-
-
     def calculate_features(self, data):
         """
         Function to calculate features for a single column of data.
@@ -83,26 +79,24 @@ class SlidingWindow:
             features: list of features. A row of a dataframe.
         """
         # Calculate features
-        F_mean = data.mean()
-        F_min = data.min()
-        F_max = data.max()
-        F_sum = data.sum()
-        F_prod = data.prod()
-        F_std = data.std()
-        F_mc = np.mean(np.diff(np.sign(data)))
-        F_zc = np.sum(np.diff(np.sign(data)) != 0)
-        F_iqr = np.subtract(*np.percentile(data, [75, 25]))
-        F_skew = data.skew()
-        F_25 = np.percentile(data, 25)
-        F_75 = np.percentile(data, 75)
-        F_kr = data.kurtosis()
-        F_seg = np.sum(np.square(data))
-        F_sep = -np.sum(np.square(data) * np.log(np.square(data)))
+        F_mean = data.mean() # $ \s
+        F_min = data.min() # $ min(x_i) $
+        F_max = data.max() # $ max(x_i) $
+        F_sum = data.sum() # $ \sum_{i=1}^{n} x_i $
+        F_prod = data.prod() # $ \prod_{i=1}^{n} x_i $
+        F_std = data.std() # $ \sqrt{\sum_{i=1}^{n} (x_i - \mu)^2 / n} $
+        F_mc = np.mean(np.diff(np.sign(data))) # $ \sum_{i=1}^{n-1} \frac{1}{2} |x_i - x_{i+1}| $
+        F_zc = np.sum(np.diff(np.sign(data)) != 0) # $ \sum_{i=1}^{n-1} |x_i - x_{i+1}| $
+        F_iqr = np.subtract(*np.percentile(data, [75, 25])) # $ \frac{1}{2} (x_{75} - x_{25}) $
+        F_skew = data.skew() # $ \frac{\sum_{i=1}^{n} (x_i - \mu)^3 / n}{\sigma^3} $
+        F_25 = np.percentile(data, 25) # $ x_{25} $
+        F_75 = np.percentile(data, 75) # $ x_{75} $
+        F_kr = data.kurtosis() # $ \frac{\sum_{i=1}^{n} (x_i - \mu)^4 / n}{\sigma^4} $
+        F_seg = np.sum(np.square(data)) # $ \sum_{i=1}^{n} x_i^2 $
+        F_sep = -np.sum(np.square(data) * np.log(np.square(data))) # $ -\sum_{i=1}^{n} x_i^2 \log(x_i^2) $
 
         # Create list of features
-        features = pd.DataFrame({'F_mean': F_mean, 'F_min': F_min, 'F_max': F_max, 'F_sum': F_sum, 'F_prod': F_prod,
-        'F_std': F_std, 'F_mc': F_mc, 'F_zc': F_zc, 'F_iqr': F_iqr, 'F_skew': F_skew, 'F_25': F_25, 'F_75': F_75, 
-        'F_kr': F_kr, 'F_seg': F_seg, 'F_sep': F_sep}, index=[0])
+        features = [F_mean, F_min, F_max, F_sum, F_prod, F_std, F_mc, F_zc, F_iqr, F_skew, F_25, F_75, F_kr, F_seg, F_sep]
 
         return features
 
@@ -112,19 +106,19 @@ class SlidingWindow:
         Function to normalize a row of data using min-max normalization.
         
         args:
-            row: pandas series of data
+            list: list of feature data
             
         returns:
-            normalized_row: pandas series of normalized data
+            list: normalized list of feature data
         """
-        # Calculate min and max
-        min = row.min()
-        max = row.max()
+        # Get min and max of row
+        row_min = min(row)
+        row_max = max(row)
 
-        # Normalize
-        normalized_row = (row - min) / (max - min)
-        print(normalized_row)
-        return normalized_row       
+        # Normalize row
+        normalized_row = [(x - row_min) / (row_max - row_min) for x in row]
+
+        return normalized_row
 
         
     def feature_extraction(self):
@@ -156,26 +150,40 @@ class SlidingWindow:
         windows = self.get_windows()
 
         for index, window in enumerate(windows):
-            # Create empty dataframe of features as columns
-            feature_df = pd.DataFrame(columns=['F_mean', 'F_min', 'F_max', 'F_sum', 'F_prod', 
-            'F_std', 'F_mc', 'F_zc', 'F_iqr', 'F_skew', 'F_25', 'F_75', 'F_kr', 'F_seg', 'F_sep'])
+            # Feature options
+            feature_types = ['F_mean', 'F_min', 'F_max', 'F_sum', 'F_prod', 'F_std', 'F_mc',
+                              'F_zc', 'F_iqr', 'F_skew', 'F_25', 'F_75', 'F_kr', 'F_seg', 'F_sep']
 
-            for column in window.columns:
+            dimensions =  window.columns[:3] # ["acc_x, w/ unit g", "acc_y, w/ unit g", "acc_z, w/ unit g"]
 
-                data = window[column]
+            # Create list to store features and headers
+            features = []
+            headers = []
 
-                features = self.calculate_features(data)
-                # features = self.normalize(features)
-                
-                feature_df = pd.concat([feature_df, features], ignore_index=True)
-                
+            # Create dataframe to store features. For each dimension, there are 15 features.
+            # Each window has 3 dimensions, so there are 45 features per window.
+            for dimension in dimensions:
+                # Get data for dimension
+                data = window[dimension]
+
+                # Calculate features and append to list
+                features.extend(self.calculate_features(data))
+
+                # Create headers
+                for feature in feature_types:
+                    headers.append(f'{dimension}_{feature}')
+
+
+            # Create dataframe
+            # ValueError: Shape of passed values is (45, 1), indices imply (45, 45)
+            # feature_df = pd.DataFrame(features, columns=headers)
+            feature_df = pd.DataFrame(features).T
+            feature_df.columns = headers
+            
             # Save to csv
+            print(f'Saving {subject}_{activity}_{trial}_{index}.csv')
             feature_df.to_csv(f'PreProcessing/USC/Features/{subject}_{activity}_{trial}_{index}.csv', index=False)
 
-
-
         
-window = SlidingWindow('PreProcessing/USC/RawData/Subject1_a1t1.csv')
-window.feature_extraction()
 
 
