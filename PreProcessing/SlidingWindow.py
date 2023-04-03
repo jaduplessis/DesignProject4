@@ -121,7 +121,7 @@ class SlidingWindow:
         return normalized_row
 
         
-    def feature_extraction(self):
+    def feature_extraction(self, window_path):
         """ 
         This function converts a large set of time series data into windows of feature extracted data.
 
@@ -154,7 +154,7 @@ class SlidingWindow:
             feature_types = ['F_mean', 'F_min', 'F_max', 'F_sum', 'F_prod', 'F_std', 'F_mc',
                               'F_zc', 'F_iqr', 'F_skew', 'F_25', 'F_75', 'F_kr', 'F_seg', 'F_sep']
 
-            dimensions =  window.columns[:3] # ["acc_x, w/ unit g", "acc_y, w/ unit g", "acc_z, w/ unit g"]
+            dimensions =  window.columns # ["acc_x, w/ unit g", "acc_y, w/ unit g", "acc_z, w/ unit g"]
 
             # Create list to store features and headers
             features = []
@@ -182,7 +182,9 @@ class SlidingWindow:
             
             # Save to csv
             print(f'Saving {subject}_{activity}_{trial}_{index}.csv')
-            feature_df.to_csv(f'PreProcessing/USC/Features/{subject}_{activity}_{trial}_{index}.csv', index=False)
+            file_path = f'{window_path}/{subject}_{activity}_{trial}_{index}.csv'
+
+            feature_df.to_csv(file_path, index=False)
 
         
 

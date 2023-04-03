@@ -11,9 +11,9 @@ import sys
 import numpy as np
 import pandas as pd
 
-def compile_files():
+def compile_files(window_size=7):
     # Path to the data
-    path = os.path.join(os.getcwd(), 'PreProcessing\\USC\\Features')
+    path = os.path.join(os.getcwd(), 'PreProcessing\\USC\\Features_' + str(window_size))
 
     # Get all files in the directory
     files = os.listdir(path)
@@ -58,7 +58,7 @@ def compile_files():
 
 
     # Save data to csv
-    df.to_csv('PreProcessing\\USC\\CompiledData.csv', index=False)
+    df.to_csv('PreProcessing\\USC\\CompiledData_' + str(window_size) + '.csv', index=False)
 
 
 
