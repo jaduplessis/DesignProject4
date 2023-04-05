@@ -1,5 +1,14 @@
 *.asv
 hh111/hh111.rawdata.txt
-*.csv
-SPHERE\*
+SPHERE/*
 CASAS/hh111.rawdata.txt
+PreProcessing/RawData2/*
+PreProcessing/USC/Features_4/*
+PreProcessing/USC/Features_5/*
+PreProcessing/USC/Features_6/*
+PreProcessing/USC/Features_7/*
+PreProcessing/USC/Features_8/*
+PreProcessing/USC/Features_9/*
+PreProcessing/USC/Features_10/*
+PreProcessing/USC/Features/*
+PreProcessing/USC/RawData/*

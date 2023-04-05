@@ -50,11 +50,7 @@ def compile_files(window_size=7):
         df = pd.concat([df, df_temp], ignore_index=True)
 
         # Print progress 
-        if len(files) > 10:
-            if index % (len(files) // 20) == 0:
-                # Print inline
-                # print('Progress: {}%'.format(index / len(files) * 100))
-                print('Progress: {}%'.format(index / len(files) * 100), end='\r')
+        print('Window Size: ' + str(window_size) + ' | Progress: ' + str(index) + '/' + str(len(files)), end='\r')
 
 
     # Save data to csv
@@ -63,6 +59,7 @@ def compile_files(window_size=7):
 
 
 if __name__ == '__main__':
-    compile_files()
+    for window_size in ['4', '5', '6', '7', '8', '9', '10']:
+        compile_files(window_size)
 
 

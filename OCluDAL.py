@@ -154,8 +154,7 @@ class OCluDAL():
 
     def Random_sampling(self, n):
         # Randomly select indices from unlabelled X
-        indices = None
-
+        indices = np.random.choice(len(self.unlabelled_X_new), n, replace=False)
         return indices
 
 
@@ -163,7 +162,23 @@ class OCluDAL():
         """
         Function selects the n-highest entropy probabilities and returns the indices of them
         """
-        pass
+        # Get the number of samples and classes
+        n_samples, n_classes = probalities.shape
+
+        # Calculate the entropy for each sample
+        entropy_list = []
+
+        for i in range(n_samples):
+            probs = probalities[i]
+            entropy = -np.sum(probs * np.log(probs))
+            entropy_list.append(entropy)
+
+        assert len(entropy_list) == n_samples
+        
+        # Get the indices of the n samples with the highest entropy
+        indices = np.argsort(entropy)[-n:]
+
+        return indices
 
 
 
@@ -236,9 +251,9 @@ class OCluDAL():
                 # Find most useful samples to annotate
                 indices = self.BvSB_Sampling(probalities, n)
             elif sampling_type == 'Random':
-                indices = self.Random_sampling
+                indices = self.Random_sampling(n)
             elif sampling_type == 'Entropy':
-                indices = self.Entropy_sampling
+                indices = self.Entropy_Sampling(probalities, n)
             
             # Update labelled and unlabelled sets
             self.oracle_annotations(indices)
@@ -320,27 +335,17 @@ class OCluDAL():
 
 
 if __name__ == '__main__':
-    from OCluDAL import OCluDAL
-
-    from OCluDAL import OCluDAL
-    import numpy as np
-
-    # Path to the data
-    indices = np.random.choice(3000, 10, replace=False)
-    # indices = np.arange(138, 148)
+    indices = np.arange(138, 148)
     path = 'PreProcessing\\USC\\CompiledData_7.csv'
     annotations = 10
 
-    damping_pref_tuples = {
-        'combination1': (0.75, -190),
-        'combination2': (0.75, -180),
-        'combination3': (0.75, -300),
-    }
+    damping = 0.75
+    pref = -180
 
-    for key, (damping, pref) in damping_pref_tuples.items():
-        OC = OCluDAL(path, annotations, damping=damping, preference=pref)
-        OC.initialise_data(indices=indices, output_path=f'test.csv')
-        OC.preprocessing()
-        OC.step1(max_iter=1)
-        clf = OC.step2(max_iter=500, n=10, max_samples=500)
+    OC = OCluDAL(path, annotations, damping=damping, preference=pref)
+    OC.initialise_data(indices=indices, output_path=f'Random_sampling_verification.csv')
+    OC.preprocessing()
+    OC.step1(max_iter=0)
+    clf = OC.step2(max_iter=500, n=10, max_samples=800, sampling_type='Entropy')
+
 

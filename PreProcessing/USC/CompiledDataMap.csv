@@ -1,0 +1,1315 @@
+Subject,Activity,Window,Index
+Subject10,Elevator Down,1,0
+Subject10,Elevator Down,1,1
+Subject10,Elevator Down,1,2
+Subject10,Elevator Down,1,3
+Subject10,Elevator Down,2,4
+Subject10,Elevator Down,2,5
+Subject10,Elevator Down,2,6
+Subject10,Elevator Down,2,7
+Subject10,Elevator Down,3,8
+Subject10,Elevator Down,3,9
+Subject10,Elevator Down,3,10
+Subject10,Elevator Down,3,11
+Subject10,Elevator Down,4,12
+Subject10,Elevator Down,4,13
+Subject10,Elevator Down,4,14
+Subject10,Elevator Down,4,15
+Subject10,Elevator Down,5,16
+Subject10,Elevator Down,5,17
+Subject10,Elevator Down,5,18
+Subject10,Elevator Down,5,19
+Subject10,Elevator Up,1,20
+Subject10,Elevator Up,1,21
+Subject10,Elevator Up,1,22
+Subject10,Elevator Up,1,23
+Subject10,Elevator Up,1,24
+Subject10,Elevator Up,2,25
+Subject10,Elevator Up,2,26
+Subject10,Elevator Up,2,27
+Subject10,Elevator Up,2,28
+Subject10,Elevator Up,3,29
+Subject10,Elevator Up,3,30
+Subject10,Elevator Up,3,31
+Subject10,Elevator Up,3,32
+Subject10,Elevator Up,3,33
+Subject10,Elevator Up,4,34
+Subject10,Elevator Up,4,35
+Subject10,Elevator Up,4,36
+Subject10,Elevator Up,4,37
+Subject10,Elevator Up,5,38
+Subject10,Elevator Up,5,39
+Subject10,Elevator Up,5,40
+Subject10,Elevator Up,5,41
+Subject10,Sleeping,1,42
+Subject10,Sleeping,1,43
+Subject10,Sleeping,1,44
+Subject10,Sleeping,1,45
+Subject10,Sleeping,1,46
+Subject10,Sleeping,1,47
+Subject10,Sleeping,1,48
+Subject10,Sleeping,1,49
+Subject10,Sleeping,2,50
+Subject10,Sleeping,2,51
+Subject10,Sleeping,2,52
+Subject10,Sleeping,2,53
+Subject10,Sleeping,2,54
+Subject10,Sleeping,2,55
+Subject10,Sleeping,2,56
+Subject10,Sleeping,2,57
+Subject10,Sleeping,3,58
+Subject10,Sleeping,3,59
+Subject10,Sleeping,3,60
+Subject10,Sleeping,3,61
+Subject10,Sleeping,3,62
+Subject10,Sleeping,3,63
+Subject10,Sleeping,3,64
+Subject10,Sleeping,3,65
+Subject10,Sleeping,4,66
+Subject10,Sleeping,4,67
+Subject10,Sleeping,4,68
+Subject10,Sleeping,4,69
+Subject10,Sleeping,4,70
+Subject10,Sleeping,4,71
+Subject10,Sleeping,4,72
+Subject10,Sleeping,4,73
+Subject10,Sleeping,5,74
+Subject10,Sleeping,5,75
+Subject10,Sleeping,5,76
+Subject10,Sleeping,5,77
+Subject10,Sleeping,5,78
+Subject10,Sleeping,5,79
+Subject10,Sleeping,5,80
+Subject10,Sleeping,5,81
+Subject10,Walking Forward,1,82
+Subject10,Walking Forward,1,83
+Subject10,Walking Forward,1,84
+Subject10,Walking Forward,1,85
+Subject10,Walking Forward,1,86
+Subject10,Walking Forward,1,87
+Subject10,Walking Forward,1,88
+Subject10,Walking Forward,1,89
+Subject10,Walking Forward,1,90
+Subject10,Walking Forward,1,91
+Subject10,Walking Forward,1,92
+Subject10,Walking Forward,1,93
+Subject10,Walking Forward,1,94
+Subject10,Walking Forward,2,95
+Subject10,Walking Forward,2,96
+Subject10,Walking Forward,2,97
+Subject10,Walking Forward,2,98
+Subject10,Walking Forward,2,99
+Subject10,Walking Forward,2,100
+Subject10,Walking Forward,2,101
+Subject10,Walking Forward,2,102
+Subject10,Walking Forward,2,103
+Subject10,Walking Forward,2,104
+Subject10,Walking Forward,2,105
+Subject10,Walking Forward,2,106
+Subject10,Walking Forward,2,107
+Subject11,Elevator Down,1,108
+Subject11,Elevator Down,1,109
+Subject11,Elevator Down,1,110
+Subject11,Elevator Down,1,111
+Subject11,Elevator Down,2,112
+Subject11,Elevator Down,2,113
+Subject11,Elevator Down,2,114
+Subject11,Elevator Down,2,115
+Subject11,Elevator Down,3,116
+Subject11,Elevator Down,3,117
+Subject11,Elevator Down,3,118
+Subject11,Elevator Down,3,119
+Subject11,Elevator Down,4,120
+Subject11,Elevator Down,4,121
+Subject11,Elevator Down,4,122
+Subject11,Elevator Down,4,123
+Subject11,Elevator Down,5,124
+Subject11,Elevator Down,5,125
+Subject11,Elevator Down,5,126
+Subject11,Elevator Down,5,127
+Subject11,Elevator Up,1,128
+Subject11,Elevator Up,1,129
+Subject11,Elevator Up,1,130
+Subject11,Elevator Up,1,131
+Subject11,Elevator Up,2,132
+Subject11,Elevator Up,2,133
+Subject11,Elevator Up,2,134
+Subject11,Elevator Up,2,135
+Subject11,Elevator Up,3,136
+Subject11,Elevator Up,3,137
+Subject11,Elevator Up,3,138
+Subject11,Elevator Up,3,139
+Subject11,Elevator Up,3,140
+Subject11,Elevator Up,4,141
+Subject11,Elevator Up,4,142
+Subject11,Elevator Up,4,143
+Subject11,Elevator Up,4,144
+Subject11,Elevator Up,5,145
+Subject11,Elevator Up,5,146
+Subject11,Elevator Up,5,147
+Subject11,Elevator Up,5,148
+Subject11,Sleeping,1,149
+Subject11,Sleeping,1,150
+Subject11,Sleeping,1,151
+Subject11,Sleeping,1,152
+Subject11,Sleeping,1,153
+Subject11,Sleeping,1,154
+Subject11,Sleeping,1,155
+Subject11,Sleeping,1,156
+Subject11,Sleeping,2,157
+Subject11,Sleeping,2,158
+Subject11,Sleeping,2,159
+Subject11,Sleeping,2,160
+Subject11,Sleeping,2,161
+Subject11,Sleeping,2,162
+Subject11,Sleeping,2,163
+Subject11,Sleeping,2,164
+Subject11,Sleeping,3,165
+Subject11,Sleeping,3,166
+Subject11,Sleeping,3,167
+Subject11,Sleeping,3,168
+Subject11,Sleeping,3,169
+Subject11,Sleeping,3,170
+Subject11,Sleeping,3,171
+Subject11,Sleeping,3,172
+Subject11,Sleeping,4,173
+Subject11,Sleeping,4,174
+Subject11,Sleeping,4,175
+Subject11,Sleeping,4,176
+Subject11,Sleeping,4,177
+Subject11,Sleeping,4,178
+Subject11,Sleeping,4,179
+Subject11,Sleeping,4,180
+Subject11,Sleeping,5,181
+Subject11,Sleeping,5,182
+Subject11,Sleeping,5,183
+Subject11,Sleeping,5,184
+Subject11,Sleeping,5,185
+Subject11,Sleeping,5,186
+Subject11,Sleeping,5,187
+Subject11,Sleeping,5,188
+Subject11,Walking Forward,1,189
+Subject11,Walking Forward,1,190
+Subject11,Walking Forward,1,191
+Subject11,Walking Forward,1,192
+Subject11,Walking Forward,1,193
+Subject11,Walking Forward,1,194
+Subject11,Walking Forward,1,195
+Subject11,Walking Forward,1,196
+Subject11,Walking Forward,1,197
+Subject11,Walking Forward,1,198
+Subject11,Walking Forward,1,199
+Subject11,Walking Forward,1,200
+Subject11,Walking Forward,1,201
+Subject11,Walking Forward,1,202
+Subject11,Walking Forward,2,203
+Subject11,Walking Forward,2,204
+Subject11,Walking Forward,2,205
+Subject11,Walking Forward,2,206
+Subject11,Walking Forward,2,207
+Subject11,Walking Forward,2,208
+Subject11,Walking Forward,2,209
+Subject11,Walking Forward,2,210
+Subject11,Walking Forward,2,211
+Subject11,Walking Forward,2,212
+Subject11,Walking Forward,2,213
+Subject12,Elevator Down,1,214
+Subject12,Elevator Down,1,215
+Subject12,Elevator Down,1,216
+Subject12,Elevator Down,1,217
+Subject12,Elevator Down,2,218
+Subject12,Elevator Down,2,219
+Subject12,Elevator Down,2,220
+Subject12,Elevator Down,2,221
+Subject12,Elevator Down,2,222
+Subject12,Elevator Down,3,223
+Subject12,Elevator Down,3,224
+Subject12,Elevator Down,3,225
+Subject12,Elevator Down,3,226
+Subject12,Elevator Down,3,227
+Subject12,Elevator Down,4,228
+Subject12,Elevator Down,4,229
+Subject12,Elevator Down,4,230
+Subject12,Elevator Down,4,231
+Subject12,Elevator Down,4,232
+Subject12,Elevator Down,5,233
+Subject12,Elevator Down,5,234
+Subject12,Elevator Down,5,235
+Subject12,Elevator Down,5,236
+Subject12,Elevator Up,1,237
+Subject12,Elevator Up,1,238
+Subject12,Elevator Up,1,239
+Subject12,Elevator Up,1,240
+Subject12,Elevator Up,2,241
+Subject12,Elevator Up,2,242
+Subject12,Elevator Up,2,243
+Subject12,Elevator Up,2,244
+Subject12,Elevator Up,3,245
+Subject12,Elevator Up,3,246
+Subject12,Elevator Up,3,247
+Subject12,Elevator Up,3,248
+Subject12,Elevator Up,4,249
+Subject12,Elevator Up,4,250
+Subject12,Elevator Up,4,251
+Subject12,Elevator Up,4,252
+Subject12,Elevator Up,4,253
+Subject12,Elevator Up,5,254
+Subject12,Elevator Up,5,255
+Subject12,Elevator Up,5,256
+Subject12,Elevator Up,5,257
+Subject12,Elevator Up,5,258
+Subject12,Sleeping,1,259
+Subject12,Sleeping,1,260
+Subject12,Sleeping,1,261
+Subject12,Sleeping,1,262
+Subject12,Sleeping,1,263
+Subject12,Sleeping,1,264
+Subject12,Sleeping,1,265
+Subject12,Sleeping,1,266
+Subject12,Sleeping,2,267
+Subject12,Sleeping,2,268
+Subject12,Sleeping,2,269
+Subject12,Sleeping,2,270
+Subject12,Sleeping,2,271
+Subject12,Sleeping,2,272
+Subject12,Sleeping,2,273
+Subject12,Sleeping,2,274
+Subject12,Sleeping,3,275
+Subject12,Sleeping,3,276
+Subject12,Sleeping,3,277
+Subject12,Sleeping,3,278
+Subject12,Sleeping,3,279
+Subject12,Sleeping,3,280
+Subject12,Sleeping,3,281
+Subject12,Sleeping,3,282
+Subject12,Sleeping,4,283
+Subject12,Sleeping,4,284
+Subject12,Sleeping,4,285
+Subject12,Sleeping,4,286
+Subject12,Sleeping,4,287
+Subject12,Sleeping,4,288
+Subject12,Sleeping,4,289
+Subject12,Sleeping,4,290
+Subject12,Sleeping,5,291
+Subject12,Sleeping,5,292
+Subject12,Sleeping,5,293
+Subject12,Sleeping,5,294
+Subject12,Sleeping,5,295
+Subject12,Sleeping,5,296
+Subject12,Sleeping,5,297
+Subject12,Sleeping,5,298
+Subject12,Walking Forward,1,299
+Subject12,Walking Forward,1,300
+Subject12,Walking Forward,1,301
+Subject12,Walking Forward,1,302
+Subject12,Walking Forward,1,303
+Subject12,Walking Forward,1,304
+Subject12,Walking Forward,1,305
+Subject12,Walking Forward,1,306
+Subject12,Walking Forward,1,307
+Subject12,Walking Forward,1,308
+Subject12,Walking Forward,1,309
+Subject12,Walking Forward,1,310
+Subject12,Walking Forward,1,311
+Subject12,Walking Forward,1,312
+Subject12,Walking Forward,1,313
+Subject12,Walking Forward,1,314
+Subject12,Walking Forward,1,315
+Subject12,Walking Forward,1,316
+Subject12,Walking Forward,1,317
+Subject12,Walking Forward,1,318
+Subject12,Walking Forward,1,319
+Subject12,Walking Forward,1,320
+Subject12,Walking Forward,2,321
+Subject12,Walking Forward,2,322
+Subject12,Walking Forward,2,323
+Subject12,Walking Forward,2,324
+Subject12,Walking Forward,2,325
+Subject12,Walking Forward,2,326
+Subject12,Walking Forward,2,327
+Subject12,Walking Forward,2,328
+Subject12,Walking Forward,2,329
+Subject12,Walking Forward,2,330
+Subject12,Walking Forward,2,331
+Subject12,Walking Forward,2,332
+Subject12,Walking Forward,2,333
+Subject12,Walking Forward,2,334
+Subject12,Walking Forward,2,335
+Subject12,Walking Forward,2,336
+Subject12,Walking Forward,2,337
+Subject12,Walking Forward,2,338
+Subject12,Walking Forward,2,339
+Subject12,Walking Forward,2,340
+Subject12,Walking Forward,2,341
+Subject13,Elevator Down,1,342
+Subject13,Elevator Down,1,343
+Subject13,Elevator Down,2,344
+Subject13,Elevator Down,2,345
+Subject13,Elevator Down,2,346
+Subject13,Elevator Down,3,347
+Subject13,Elevator Down,3,348
+Subject13,Elevator Down,4,349
+Subject13,Elevator Down,4,350
+Subject13,Elevator Down,4,351
+Subject13,Elevator Down,5,352
+Subject13,Elevator Down,5,353
+Subject13,Elevator Up,1,354
+Subject13,Elevator Up,1,355
+Subject13,Elevator Up,1,356
+Subject13,Elevator Up,2,357
+Subject13,Elevator Up,2,358
+Subject13,Elevator Up,2,359
+Subject13,Elevator Up,3,360
+Subject13,Elevator Up,3,361
+Subject13,Elevator Up,3,362
+Subject13,Elevator Up,4,363
+Subject13,Elevator Up,4,364
+Subject13,Elevator Up,4,365
+Subject13,Elevator Up,5,366
+Subject13,Elevator Up,5,367
+Subject13,Elevator Up,5,368
+Subject13,Elevator Up,5,369
+Subject13,Sleeping,1,370
+Subject13,Sleeping,1,371
+Subject13,Sleeping,1,372
+Subject13,Sleeping,1,373
+Subject13,Sleeping,1,374
+Subject13,Sleeping,1,375
+Subject13,Sleeping,1,376
+Subject13,Sleeping,1,377
+Subject13,Sleeping,1,378
+Subject13,Sleeping,1,379
+Subject13,Sleeping,1,380
+Subject13,Sleeping,1,381
+Subject13,Sleeping,1,382
+Subject13,Sleeping,1,383
+Subject13,Sleeping,1,384
+Subject13,Sleeping,1,385
+Subject13,Sleeping,2,386
+Subject13,Sleeping,2,387
+Subject13,Sleeping,2,388
+Subject13,Sleeping,2,389
+Subject13,Sleeping,2,390
+Subject13,Sleeping,2,391
+Subject13,Sleeping,2,392
+Subject13,Sleeping,2,393
+Subject13,Sleeping,2,394
+Subject13,Sleeping,2,395
+Subject13,Sleeping,2,396
+Subject13,Sleeping,2,397
+Subject13,Sleeping,2,398
+Subject13,Sleeping,2,399
+Subject13,Sleeping,2,400
+Subject13,Sleeping,2,401
+Subject13,Sleeping,3,402
+Subject13,Sleeping,3,403
+Subject13,Sleeping,3,404
+Subject13,Sleeping,3,405
+Subject13,Sleeping,3,406
+Subject13,Sleeping,3,407
+Subject13,Sleeping,3,408
+Subject13,Sleeping,3,409
+Subject13,Sleeping,3,410
+Subject13,Sleeping,3,411
+Subject13,Sleeping,3,412
+Subject13,Sleeping,3,413
+Subject13,Sleeping,3,414
+Subject13,Sleeping,3,415
+Subject13,Sleeping,3,416
+Subject13,Sleeping,3,417
+Subject13,Sleeping,4,418
+Subject13,Sleeping,4,419
+Subject13,Sleeping,4,420
+Subject13,Sleeping,4,421
+Subject13,Sleeping,4,422
+Subject13,Sleeping,4,423
+Subject13,Sleeping,4,424
+Subject13,Sleeping,4,425
+Subject13,Sleeping,4,426
+Subject13,Sleeping,4,427
+Subject13,Sleeping,4,428
+Subject13,Sleeping,4,429
+Subject13,Sleeping,4,430
+Subject13,Sleeping,4,431
+Subject13,Sleeping,4,432
+Subject13,Sleeping,4,433
+Subject13,Sleeping,5,434
+Subject13,Sleeping,5,435
+Subject13,Sleeping,5,436
+Subject13,Sleeping,5,437
+Subject13,Sleeping,5,438
+Subject13,Sleeping,5,439
+Subject13,Sleeping,5,440
+Subject13,Sleeping,5,441
+Subject13,Sleeping,5,442
+Subject13,Sleeping,5,443
+Subject13,Sleeping,5,444
+Subject13,Sleeping,5,445
+Subject13,Sleeping,5,446
+Subject13,Sleeping,5,447
+Subject13,Sleeping,5,448
+Subject13,Sleeping,5,449
+Subject13,Walking Forward,1,450
+Subject13,Walking Forward,1,451
+Subject13,Walking Forward,1,452
+Subject13,Walking Forward,1,453
+Subject13,Walking Forward,1,454
+Subject13,Walking Forward,1,455
+Subject13,Walking Forward,1,456
+Subject13,Walking Forward,1,457
+Subject13,Walking Forward,1,458
+Subject13,Walking Forward,1,459
+Subject13,Walking Forward,1,460
+Subject13,Walking Forward,1,461
+Subject13,Walking Forward,1,462
+Subject13,Walking Forward,1,463
+Subject13,Walking Forward,1,464
+Subject13,Walking Forward,2,465
+Subject13,Walking Forward,2,466
+Subject13,Walking Forward,2,467
+Subject13,Walking Forward,2,468
+Subject13,Walking Forward,2,469
+Subject13,Walking Forward,2,470
+Subject13,Walking Forward,2,471
+Subject13,Walking Forward,2,472
+Subject13,Walking Forward,2,473
+Subject13,Walking Forward,2,474
+Subject13,Walking Forward,2,475
+Subject13,Walking Forward,2,476
+Subject13,Walking Forward,2,477
+Subject13,Walking Forward,2,478
+Subject13,Walking Forward,2,479
+Subject13,Walking Forward,2,480
+Subject14,Elevator Down,1,481
+Subject14,Elevator Down,1,482
+Subject14,Elevator Down,1,483
+Subject14,Elevator Down,2,484
+Subject14,Elevator Down,2,485
+Subject14,Elevator Down,2,486
+Subject14,Elevator Down,3,487
+Subject14,Elevator Down,3,488
+Subject14,Elevator Down,3,489
+Subject14,Elevator Down,4,490
+Subject14,Elevator Down,4,491
+Subject14,Elevator Down,4,492
+Subject14,Elevator Down,5,493
+Subject14,Elevator Down,5,494
+Subject14,Elevator Down,5,495
+Subject14,Elevator Up,1,496
+Subject14,Elevator Up,1,497
+Subject14,Elevator Up,1,498
+Subject14,Elevator Up,2,499
+Subject14,Elevator Up,2,500
+Subject14,Elevator Up,2,501
+Subject14,Elevator Up,3,502
+Subject14,Elevator Up,3,503
+Subject14,Elevator Up,3,504
+Subject14,Elevator Up,4,505
+Subject14,Elevator Up,4,506
+Subject14,Elevator Up,4,507
+Subject14,Elevator Up,5,508
+Subject14,Elevator Up,5,509
+Subject14,Elevator Up,5,510
+Subject14,Sleeping,1,511
+Subject14,Sleeping,1,512
+Subject14,Sleeping,1,513
+Subject14,Sleeping,1,514
+Subject14,Sleeping,1,515
+Subject14,Sleeping,1,516
+Subject14,Sleeping,1,517
+Subject14,Sleeping,1,518
+Subject14,Sleeping,2,519
+Subject14,Sleeping,2,520
+Subject14,Sleeping,2,521
+Subject14,Sleeping,2,522
+Subject14,Sleeping,2,523
+Subject14,Sleeping,2,524
+Subject14,Sleeping,2,525
+Subject14,Sleeping,2,526
+Subject14,Sleeping,3,527
+Subject14,Sleeping,3,528
+Subject14,Sleeping,3,529
+Subject14,Sleeping,3,530
+Subject14,Sleeping,3,531
+Subject14,Sleeping,3,532
+Subject14,Sleeping,3,533
+Subject14,Sleeping,3,534
+Subject14,Sleeping,4,535
+Subject14,Sleeping,4,536
+Subject14,Sleeping,4,537
+Subject14,Sleeping,4,538
+Subject14,Sleeping,4,539
+Subject14,Sleeping,4,540
+Subject14,Sleeping,4,541
+Subject14,Sleeping,4,542
+Subject14,Sleeping,5,543
+Subject14,Sleeping,5,544
+Subject14,Sleeping,5,545
+Subject14,Sleeping,5,546
+Subject14,Sleeping,5,547
+Subject14,Sleeping,5,548
+Subject14,Sleeping,5,549
+Subject14,Sleeping,5,550
+Subject14,Walking Forward,1,551
+Subject14,Walking Forward,1,552
+Subject14,Walking Forward,1,553
+Subject14,Walking Forward,1,554
+Subject14,Walking Forward,1,555
+Subject14,Walking Forward,1,556
+Subject14,Walking Forward,1,557
+Subject14,Walking Forward,1,558
+Subject14,Walking Forward,1,559
+Subject14,Walking Forward,2,560
+Subject14,Walking Forward,2,561
+Subject14,Walking Forward,2,562
+Subject14,Walking Forward,2,563
+Subject14,Walking Forward,2,564
+Subject14,Walking Forward,2,565
+Subject14,Walking Forward,2,566
+Subject14,Walking Forward,2,567
+Subject1,Elevator Down,1,568
+Subject1,Elevator Down,1,569
+Subject1,Elevator Down,2,570
+Subject1,Elevator Down,2,571
+Subject1,Elevator Down,3,572
+Subject1,Elevator Down,3,573
+Subject1,Elevator Down,3,574
+Subject1,Elevator Down,4,575
+Subject1,Elevator Down,4,576
+Subject1,Elevator Down,5,577
+Subject1,Elevator Down,5,578
+Subject1,Elevator Down,5,579
+Subject1,Elevator Up,1,580
+Subject1,Elevator Up,1,581
+Subject1,Elevator Up,1,582
+Subject1,Elevator Up,2,583
+Subject1,Elevator Up,2,584
+Subject1,Elevator Up,2,585
+Subject1,Elevator Up,3,586
+Subject1,Elevator Up,3,587
+Subject1,Elevator Up,3,588
+Subject1,Elevator Up,4,589
+Subject1,Elevator Up,4,590
+Subject1,Elevator Up,4,591
+Subject1,Elevator Up,5,592
+Subject1,Elevator Up,5,593
+Subject1,Elevator Up,5,594
+Subject1,Sleeping,1,595
+Subject1,Sleeping,1,596
+Subject1,Sleeping,1,597
+Subject1,Sleeping,1,598
+Subject1,Sleeping,1,599
+Subject1,Sleeping,1,600
+Subject1,Sleeping,1,601
+Subject1,Sleeping,2,602
+Subject1,Sleeping,2,603
+Subject1,Sleeping,2,604
+Subject1,Sleeping,2,605
+Subject1,Sleeping,2,606
+Subject1,Sleeping,2,607
+Subject1,Sleeping,2,608
+Subject1,Sleeping,2,609
+Subject1,Sleeping,2,610
+Subject1,Sleeping,3,611
+Subject1,Sleeping,3,612
+Subject1,Sleeping,3,613
+Subject1,Sleeping,3,614
+Subject1,Sleeping,3,615
+Subject1,Sleeping,3,616
+Subject1,Sleeping,3,617
+Subject1,Sleeping,3,618
+Subject1,Sleeping,4,619
+Subject1,Sleeping,4,620
+Subject1,Sleeping,4,621
+Subject1,Sleeping,4,622
+Subject1,Sleeping,4,623
+Subject1,Sleeping,4,624
+Subject1,Sleeping,4,625
+Subject1,Sleeping,4,626
+Subject1,Sleeping,5,627
+Subject1,Sleeping,5,628
+Subject1,Sleeping,5,629
+Subject1,Sleeping,5,630
+Subject1,Sleeping,5,631
+Subject1,Sleeping,5,632
+Subject1,Sleeping,5,633
+Subject1,Sleeping,5,634
+Subject1,Walking Forward,1,635
+Subject1,Walking Forward,1,636
+Subject1,Walking Forward,1,637
+Subject1,Walking Forward,1,638
+Subject1,Walking Forward,2,639
+Subject1,Walking Forward,2,640
+Subject1,Walking Forward,2,641
+Subject1,Walking Forward,2,642
+Subject2,Elevator Down,1,643
+Subject2,Elevator Down,1,644
+Subject2,Elevator Down,1,645
+Subject2,Elevator Down,1,646
+Subject2,Elevator Down,1,647
+Subject2,Elevator Down,2,648
+Subject2,Elevator Down,2,649
+Subject2,Elevator Down,3,650
+Subject2,Elevator Down,3,651
+Subject2,Elevator Down,3,652
+Subject2,Elevator Down,4,653
+Subject2,Elevator Down,4,654
+Subject2,Elevator Down,4,655
+Subject2,Elevator Down,4,656
+Subject2,Elevator Down,5,657
+Subject2,Elevator Down,5,658
+Subject2,Elevator Down,5,659
+Subject2,Elevator Down,5,660
+Subject2,Elevator Up,1,661
+Subject2,Elevator Up,1,662
+Subject2,Elevator Up,1,663
+Subject2,Elevator Up,2,664
+Subject2,Elevator Up,2,665
+Subject2,Elevator Up,3,666
+Subject2,Elevator Up,3,667
+Subject2,Elevator Up,3,668
+Subject2,Elevator Up,3,669
+Subject2,Elevator Up,4,670
+Subject2,Elevator Up,4,671
+Subject2,Elevator Up,4,672
+Subject2,Elevator Up,5,673
+Subject2,Elevator Up,5,674
+Subject2,Elevator Up,5,675
+Subject2,Sleeping,1,676
+Subject2,Sleeping,1,677
+Subject2,Sleeping,1,678
+Subject2,Sleeping,1,679
+Subject2,Sleeping,1,680
+Subject2,Sleeping,1,681
+Subject2,Sleeping,1,682
+Subject2,Sleeping,1,683
+Subject2,Sleeping,2,684
+Subject2,Sleeping,2,685
+Subject2,Sleeping,2,686
+Subject2,Sleeping,2,687
+Subject2,Sleeping,2,688
+Subject2,Sleeping,2,689
+Subject2,Sleeping,2,690
+Subject2,Sleeping,2,691
+Subject2,Sleeping,3,692
+Subject2,Sleeping,3,693
+Subject2,Sleeping,3,694
+Subject2,Sleeping,3,695
+Subject2,Sleeping,3,696
+Subject2,Sleeping,3,697
+Subject2,Sleeping,3,698
+Subject2,Sleeping,3,699
+Subject2,Sleeping,4,700
+Subject2,Sleeping,4,701
+Subject2,Sleeping,4,702
+Subject2,Sleeping,4,703
+Subject2,Sleeping,4,704
+Subject2,Sleeping,4,705
+Subject2,Sleeping,4,706
+Subject2,Sleeping,4,707
+Subject2,Sleeping,5,708
+Subject2,Sleeping,5,709
+Subject2,Sleeping,5,710
+Subject2,Sleeping,5,711
+Subject2,Sleeping,5,712
+Subject2,Sleeping,5,713
+Subject2,Sleeping,5,714
+Subject2,Sleeping,5,715
+Subject2,Walking Forward,1,716
+Subject2,Walking Forward,1,717
+Subject2,Walking Forward,1,718
+Subject2,Walking Forward,1,719
+Subject2,Walking Forward,2,720
+Subject2,Walking Forward,2,721
+Subject2,Walking Forward,2,722
+Subject2,Walking Forward,2,723
+Subject3,Elevator Down,1,724
+Subject3,Elevator Down,1,725
+Subject3,Elevator Down,1,726
+Subject3,Elevator Down,1,727
+Subject3,Elevator Down,2,728
+Subject3,Elevator Down,2,729
+Subject3,Elevator Down,2,730
+Subject3,Elevator Down,3,731
+Subject3,Elevator Down,3,732
+Subject3,Elevator Down,3,733
+Subject3,Elevator Down,4,734
+Subject3,Elevator Down,4,735
+Subject3,Elevator Down,4,736
+Subject3,Elevator Down,5,737
+Subject3,Elevator Down,5,738
+Subject3,Elevator Down,5,739
+Subject3,Elevator Up,1,740
+Subject3,Elevator Up,1,741
+Subject3,Elevator Up,1,742
+Subject3,Elevator Up,2,743
+Subject3,Elevator Up,2,744
+Subject3,Elevator Up,2,745
+Subject3,Elevator Up,3,746
+Subject3,Elevator Up,3,747
+Subject3,Elevator Up,3,748
+Subject3,Elevator Up,4,749
+Subject3,Elevator Up,4,750
+Subject3,Elevator Up,4,751
+Subject3,Elevator Up,5,752
+Subject3,Elevator Up,5,753
+Subject3,Elevator Up,5,754
+Subject3,Elevator Up,5,755
+Subject3,Sleeping,1,756
+Subject3,Sleeping,1,757
+Subject3,Sleeping,1,758
+Subject3,Sleeping,1,759
+Subject3,Sleeping,1,760
+Subject3,Sleeping,1,761
+Subject3,Sleeping,1,762
+Subject3,Sleeping,1,763
+Subject3,Sleeping,2,764
+Subject3,Sleeping,2,765
+Subject3,Sleeping,2,766
+Subject3,Sleeping,2,767
+Subject3,Sleeping,2,768
+Subject3,Sleeping,2,769
+Subject3,Sleeping,2,770
+Subject3,Sleeping,2,771
+Subject3,Sleeping,3,772
+Subject3,Sleeping,3,773
+Subject3,Sleeping,3,774
+Subject3,Sleeping,3,775
+Subject3,Sleeping,3,776
+Subject3,Sleeping,3,777
+Subject3,Sleeping,3,778
+Subject3,Sleeping,3,779
+Subject3,Sleeping,4,780
+Subject3,Sleeping,4,781
+Subject3,Sleeping,4,782
+Subject3,Sleeping,4,783
+Subject3,Sleeping,4,784
+Subject3,Sleeping,4,785
+Subject3,Sleeping,4,786
+Subject3,Sleeping,4,787
+Subject3,Sleeping,5,788
+Subject3,Sleeping,5,789
+Subject3,Sleeping,5,790
+Subject3,Sleeping,5,791
+Subject3,Sleeping,5,792
+Subject3,Sleeping,5,793
+Subject3,Sleeping,5,794
+Subject3,Sleeping,5,795
+Subject3,Walking Forward,1,796
+Subject3,Walking Forward,1,797
+Subject3,Walking Forward,1,798
+Subject3,Walking Forward,1,799
+Subject3,Walking Forward,1,800
+Subject3,Walking Forward,2,801
+Subject3,Walking Forward,2,802
+Subject3,Walking Forward,2,803
+Subject3,Walking Forward,2,804
+Subject4,Elevator Down,1,805
+Subject4,Elevator Down,1,806
+Subject4,Elevator Down,1,807
+Subject4,Elevator Down,1,808
+Subject4,Elevator Down,2,809
+Subject4,Elevator Down,2,810
+Subject4,Elevator Down,2,811
+Subject4,Elevator Down,2,812
+Subject4,Elevator Down,3,813
+Subject4,Elevator Down,3,814
+Subject4,Elevator Down,3,815
+Subject4,Elevator Down,3,816
+Subject4,Elevator Down,4,817
+Subject4,Elevator Down,4,818
+Subject4,Elevator Down,4,819
+Subject4,Elevator Down,5,820
+Subject4,Elevator Down,5,821
+Subject4,Elevator Down,5,822
+Subject4,Elevator Up,1,823
+Subject4,Elevator Up,1,824
+Subject4,Elevator Up,1,825
+Subject4,Elevator Up,1,826
+Subject4,Elevator Up,2,827
+Subject4,Elevator Up,2,828
+Subject4,Elevator Up,2,829
+Subject4,Elevator Up,2,830
+Subject4,Elevator Up,3,831
+Subject4,Elevator Up,3,832
+Subject4,Elevator Up,3,833
+Subject4,Elevator Up,3,834
+Subject4,Elevator Up,4,835
+Subject4,Elevator Up,4,836
+Subject4,Elevator Up,4,837
+Subject4,Elevator Up,5,838
+Subject4,Elevator Up,5,839
+Subject4,Elevator Up,5,840
+Subject4,Elevator Up,5,841
+Subject4,Sleeping,1,842
+Subject4,Sleeping,1,843
+Subject4,Sleeping,1,844
+Subject4,Sleeping,1,845
+Subject4,Sleeping,1,846
+Subject4,Sleeping,1,847
+Subject4,Sleeping,1,848
+Subject4,Sleeping,1,849
+Subject4,Sleeping,2,850
+Subject4,Sleeping,2,851
+Subject4,Sleeping,2,852
+Subject4,Sleeping,2,853
+Subject4,Sleeping,2,854
+Subject4,Sleeping,2,855
+Subject4,Sleeping,2,856
+Subject4,Sleeping,2,857
+Subject4,Sleeping,3,858
+Subject4,Sleeping,3,859
+Subject4,Sleeping,3,860
+Subject4,Sleeping,3,861
+Subject4,Sleeping,3,862
+Subject4,Sleeping,3,863
+Subject4,Sleeping,3,864
+Subject4,Sleeping,3,865
+Subject4,Sleeping,4,866
+Subject4,Sleeping,4,867
+Subject4,Sleeping,4,868
+Subject4,Sleeping,4,869
+Subject4,Sleeping,4,870
+Subject4,Sleeping,4,871
+Subject4,Sleeping,4,872
+Subject4,Sleeping,4,873
+Subject4,Sleeping,5,874
+Subject4,Sleeping,5,875
+Subject4,Sleeping,5,876
+Subject4,Sleeping,5,877
+Subject4,Sleeping,5,878
+Subject4,Sleeping,5,879
+Subject4,Sleeping,5,880
+Subject4,Sleeping,5,881
+Subject4,Walking Forward,1,882
+Subject4,Walking Forward,1,883
+Subject4,Walking Forward,1,884
+Subject4,Walking Forward,1,885
+Subject4,Walking Forward,2,886
+Subject4,Walking Forward,2,887
+Subject4,Walking Forward,2,888
+Subject4,Walking Forward,2,889
+Subject5,Elevator Down,1,890
+Subject5,Elevator Down,1,891
+Subject5,Elevator Down,1,892
+Subject5,Elevator Down,2,893
+Subject5,Elevator Down,2,894
+Subject5,Elevator Down,2,895
+Subject5,Elevator Down,2,896
+Subject5,Elevator Down,3,897
+Subject5,Elevator Down,3,898
+Subject5,Elevator Down,3,899
+Subject5,Elevator Down,3,900
+Subject5,Elevator Down,4,901
+Subject5,Elevator Down,4,902
+Subject5,Elevator Down,4,903
+Subject5,Elevator Down,5,904
+Subject5,Elevator Down,5,905
+Subject5,Elevator Down,5,906
+Subject5,Elevator Down,5,907
+Subject5,Elevator Up,1,908
+Subject5,Elevator Up,1,909
+Subject5,Elevator Up,1,910
+Subject5,Elevator Up,1,911
+Subject5,Elevator Up,2,912
+Subject5,Elevator Up,2,913
+Subject5,Elevator Up,2,914
+Subject5,Elevator Up,2,915
+Subject5,Elevator Up,3,916
+Subject5,Elevator Up,3,917
+Subject5,Elevator Up,3,918
+Subject5,Elevator Up,4,919
+Subject5,Elevator Up,4,920
+Subject5,Elevator Up,4,921
+Subject5,Elevator Up,5,922
+Subject5,Elevator Up,5,923
+Subject5,Elevator Up,5,924
+Subject5,Sleeping,1,925
+Subject5,Sleeping,1,926
+Subject5,Sleeping,1,927
+Subject5,Sleeping,1,928
+Subject5,Sleeping,1,929
+Subject5,Sleeping,1,930
+Subject5,Sleeping,1,931
+Subject5,Sleeping,1,932
+Subject5,Sleeping,2,933
+Subject5,Sleeping,2,934
+Subject5,Sleeping,2,935
+Subject5,Sleeping,2,936
+Subject5,Sleeping,2,937
+Subject5,Sleeping,2,938
+Subject5,Sleeping,2,939
+Subject5,Sleeping,2,940
+Subject5,Sleeping,3,941
+Subject5,Sleeping,3,942
+Subject5,Sleeping,3,943
+Subject5,Sleeping,3,944
+Subject5,Sleeping,3,945
+Subject5,Sleeping,3,946
+Subject5,Sleeping,3,947
+Subject5,Sleeping,3,948
+Subject5,Sleeping,4,949
+Subject5,Sleeping,4,950
+Subject5,Sleeping,4,951
+Subject5,Sleeping,4,952
+Subject5,Sleeping,4,953
+Subject5,Sleeping,4,954
+Subject5,Sleeping,4,955
+Subject5,Sleeping,4,956
+Subject5,Sleeping,5,957
+Subject5,Sleeping,5,958
+Subject5,Sleeping,5,959
+Subject5,Sleeping,5,960
+Subject5,Sleeping,5,961
+Subject5,Sleeping,5,962
+Subject5,Sleeping,5,963
+Subject5,Sleeping,5,964
+Subject5,Walking Forward,1,965
+Subject5,Walking Forward,1,966
+Subject5,Walking Forward,1,967
+Subject5,Walking Forward,1,968
+Subject5,Walking Forward,2,969
+Subject5,Walking Forward,2,970
+Subject5,Walking Forward,2,971
+Subject5,Walking Forward,2,972
+Subject6,Elevator Down,1,973
+Subject6,Elevator Down,1,974
+Subject6,Elevator Down,1,975
+Subject6,Elevator Down,2,976
+Subject6,Elevator Down,2,977
+Subject6,Elevator Down,2,978
+Subject6,Elevator Down,3,979
+Subject6,Elevator Down,3,980
+Subject6,Elevator Down,4,981
+Subject6,Elevator Down,4,982
+Subject6,Elevator Down,4,983
+Subject6,Elevator Down,5,984
+Subject6,Elevator Down,5,985
+Subject6,Elevator Down,5,986
+Subject6,Elevator Up,1,987
+Subject6,Elevator Up,1,988
+Subject6,Elevator Up,1,989
+Subject6,Elevator Up,2,990
+Subject6,Elevator Up,2,991
+Subject6,Elevator Up,2,992
+Subject6,Elevator Up,3,993
+Subject6,Elevator Up,3,994
+Subject6,Elevator Up,3,995
+Subject6,Elevator Up,4,996
+Subject6,Elevator Up,4,997
+Subject6,Elevator Up,4,998
+Subject6,Elevator Up,5,999
+Subject6,Elevator Up,5,1000
+Subject6,Elevator Up,5,1001
+Subject6,Sleeping,1,1002
+Subject6,Sleeping,1,1003
+Subject6,Sleeping,1,1004
+Subject6,Sleeping,1,1005
+Subject6,Sleeping,1,1006
+Subject6,Sleeping,1,1007
+Subject6,Sleeping,1,1008
+Subject6,Sleeping,1,1009
+Subject6,Sleeping,2,1010
+Subject6,Sleeping,2,1011
+Subject6,Sleeping,2,1012
+Subject6,Sleeping,2,1013
+Subject6,Sleeping,2,1014
+Subject6,Sleeping,2,1015
+Subject6,Sleeping,2,1016
+Subject6,Sleeping,2,1017
+Subject6,Sleeping,3,1018
+Subject6,Sleeping,3,1019
+Subject6,Sleeping,3,1020
+Subject6,Sleeping,3,1021
+Subject6,Sleeping,3,1022
+Subject6,Sleeping,3,1023
+Subject6,Sleeping,3,1024
+Subject6,Sleeping,3,1025
+Subject6,Sleeping,4,1026
+Subject6,Sleeping,4,1027
+Subject6,Sleeping,4,1028
+Subject6,Sleeping,4,1029
+Subject6,Sleeping,4,1030
+Subject6,Sleeping,4,1031
+Subject6,Sleeping,4,1032
+Subject6,Sleeping,4,1033
+Subject6,Sleeping,5,1034
+Subject6,Sleeping,5,1035
+Subject6,Sleeping,5,1036
+Subject6,Sleeping,5,1037
+Subject6,Sleeping,5,1038
+Subject6,Sleeping,5,1039
+Subject6,Sleeping,5,1040
+Subject6,Sleeping,5,1041
+Subject6,Walking Forward,1,1042
+Subject6,Walking Forward,1,1043
+Subject6,Walking Forward,1,1044
+Subject6,Walking Forward,1,1045
+Subject6,Walking Forward,2,1046
+Subject6,Walking Forward,2,1047
+Subject6,Walking Forward,2,1048
+Subject6,Walking Forward,2,1049
+Subject7,Elevator Down,1,1050
+Subject7,Elevator Down,1,1051
+Subject7,Elevator Down,1,1052
+Subject7,Elevator Down,2,1053
+Subject7,Elevator Down,2,1054
+Subject7,Elevator Down,2,1055
+Subject7,Elevator Down,3,1056
+Subject7,Elevator Down,3,1057
+Subject7,Elevator Down,3,1058
+Subject7,Elevator Down,3,1059
+Subject7,Elevator Down,4,1060
+Subject7,Elevator Down,4,1061
+Subject7,Elevator Down,4,1062
+Subject7,Elevator Down,5,1063
+Subject7,Elevator Down,5,1064
+Subject7,Elevator Down,5,1065
+Subject7,Elevator Up,1,1066
+Subject7,Elevator Up,1,1067
+Subject7,Elevator Up,1,1068
+Subject7,Elevator Up,2,1069
+Subject7,Elevator Up,2,1070
+Subject7,Elevator Up,2,1071
+Subject7,Elevator Up,3,1072
+Subject7,Elevator Up,3,1073
+Subject7,Elevator Up,3,1074
+Subject7,Elevator Up,4,1075
+Subject7,Elevator Up,4,1076
+Subject7,Elevator Up,5,1077
+Subject7,Elevator Up,5,1078
+Subject7,Elevator Up,5,1079
+Subject7,Sleeping,1,1080
+Subject7,Sleeping,1,1081
+Subject7,Sleeping,1,1082
+Subject7,Sleeping,1,1083
+Subject7,Sleeping,1,1084
+Subject7,Sleeping,1,1085
+Subject7,Sleeping,1,1086
+Subject7,Sleeping,1,1087
+Subject7,Sleeping,2,1088
+Subject7,Sleeping,2,1089
+Subject7,Sleeping,2,1090
+Subject7,Sleeping,2,1091
+Subject7,Sleeping,2,1092
+Subject7,Sleeping,2,1093
+Subject7,Sleeping,2,1094
+Subject7,Sleeping,2,1095
+Subject7,Sleeping,3,1096
+Subject7,Sleeping,3,1097
+Subject7,Sleeping,3,1098
+Subject7,Sleeping,3,1099
+Subject7,Sleeping,3,1100
+Subject7,Sleeping,3,1101
+Subject7,Sleeping,3,1102
+Subject7,Sleeping,3,1103
+Subject7,Sleeping,4,1104
+Subject7,Sleeping,4,1105
+Subject7,Sleeping,4,1106
+Subject7,Sleeping,4,1107
+Subject7,Sleeping,4,1108
+Subject7,Sleeping,4,1109
+Subject7,Sleeping,4,1110
+Subject7,Sleeping,4,1111
+Subject7,Sleeping,5,1112
+Subject7,Sleeping,5,1113
+Subject7,Sleeping,5,1114
+Subject7,Sleeping,5,1115
+Subject7,Sleeping,5,1116
+Subject7,Sleeping,5,1117
+Subject7,Sleeping,5,1118
+Subject7,Sleeping,5,1119
+Subject7,Walking Forward,1,1120
+Subject7,Walking Forward,1,1121
+Subject7,Walking Forward,1,1122
+Subject7,Walking Forward,2,1123
+Subject7,Walking Forward,2,1124
+Subject7,Walking Forward,2,1125
+Subject8,Elevator Down,1,1126
+Subject8,Elevator Down,1,1127
+Subject8,Elevator Down,2,1128
+Subject8,Elevator Down,2,1129
+Subject8,Elevator Down,2,1130
+Subject8,Elevator Down,3,1131
+Subject8,Elevator Down,3,1132
+Subject8,Elevator Down,4,1133
+Subject8,Elevator Down,4,1134
+Subject8,Elevator Down,4,1135
+Subject8,Elevator Down,5,1136
+Subject8,Elevator Down,5,1137
+Subject8,Elevator Down,5,1138
+Subject8,Elevator Up,1,1139
+Subject8,Elevator Up,1,1140
+Subject8,Elevator Up,2,1141
+Subject8,Elevator Up,2,1142
+Subject8,Elevator Up,3,1143
+Subject8,Elevator Up,3,1144
+Subject8,Elevator Up,4,1145
+Subject8,Elevator Up,4,1146
+Subject8,Elevator Up,4,1147
+Subject8,Elevator Up,5,1148
+Subject8,Elevator Up,5,1149
+Subject8,Elevator Up,5,1150
+Subject8,Sleeping,1,1151
+Subject8,Sleeping,1,1152
+Subject8,Sleeping,1,1153
+Subject8,Sleeping,1,1154
+Subject8,Sleeping,1,1155
+Subject8,Sleeping,1,1156
+Subject8,Sleeping,1,1157
+Subject8,Sleeping,1,1158
+Subject8,Sleeping,2,1159
+Subject8,Sleeping,2,1160
+Subject8,Sleeping,2,1161
+Subject8,Sleeping,2,1162
+Subject8,Sleeping,2,1163
+Subject8,Sleeping,2,1164
+Subject8,Sleeping,2,1165
+Subject8,Sleeping,2,1166
+Subject8,Sleeping,3,1167
+Subject8,Sleeping,3,1168
+Subject8,Sleeping,3,1169
+Subject8,Sleeping,3,1170
+Subject8,Sleeping,3,1171
+Subject8,Sleeping,3,1172
+Subject8,Sleeping,3,1173
+Subject8,Sleeping,3,1174
+Subject8,Sleeping,4,1175
+Subject8,Sleeping,4,1176
+Subject8,Sleeping,4,1177
+Subject8,Sleeping,4,1178
+Subject8,Sleeping,4,1179
+Subject8,Sleeping,4,1180
+Subject8,Sleeping,4,1181
+Subject8,Sleeping,4,1182
+Subject8,Sleeping,5,1183
+Subject8,Sleeping,5,1184
+Subject8,Sleeping,5,1185
+Subject8,Sleeping,5,1186
+Subject8,Sleeping,5,1187
+Subject8,Sleeping,5,1188
+Subject8,Sleeping,5,1189
+Subject8,Sleeping,5,1190
+Subject8,Walking Forward,1,1191
+Subject8,Walking Forward,1,1192
+Subject8,Walking Forward,1,1193
+Subject8,Walking Forward,1,1194
+Subject8,Walking Forward,1,1195
+Subject8,Walking Forward,2,1196
+Subject8,Walking Forward,2,1197
+Subject8,Walking Forward,2,1198
+Subject8,Walking Forward,2,1199
+Subject8,Walking Forward,2,1200
+Subject9,Elevator Down,1,1201
+Subject9,Elevator Down,1,1202
+Subject9,Elevator Down,1,1203
+Subject9,Elevator Down,1,1204
+Subject9,Elevator Down,2,1205
+Subject9,Elevator Down,2,1206
+Subject9,Elevator Down,2,1207
+Subject9,Elevator Down,2,1208
+Subject9,Elevator Down,3,1209
+Subject9,Elevator Down,3,1210
+Subject9,Elevator Down,3,1211
+Subject9,Elevator Down,3,1212
+Subject9,Elevator Down,3,1213
+Subject9,Elevator Down,4,1214
+Subject9,Elevator Down,4,1215
+Subject9,Elevator Down,4,1216
+Subject9,Elevator Down,4,1217
+Subject9,Elevator Down,4,1218
+Subject9,Elevator Down,5,1219
+Subject9,Elevator Down,5,1220
+Subject9,Elevator Down,5,1221
+Subject9,Elevator Down,5,1222
+Subject9,Elevator Up,1,1223
+Subject9,Elevator Up,1,1224
+Subject9,Elevator Up,1,1225
+Subject9,Elevator Up,1,1226
+Subject9,Elevator Up,2,1227
+Subject9,Elevator Up,2,1228
+Subject9,Elevator Up,2,1229
+Subject9,Elevator Up,2,1230
+Subject9,Elevator Up,2,1231
+Subject9,Elevator Up,3,1232
+Subject9,Elevator Up,3,1233
+Subject9,Elevator Up,3,1234
+Subject9,Elevator Up,3,1235
+Subject9,Elevator Up,3,1236
+Subject9,Elevator Up,4,1237
+Subject9,Elevator Up,4,1238
+Subject9,Elevator Up,4,1239
+Subject9,Elevator Up,4,1240
+Subject9,Elevator Up,4,1241
+Subject9,Elevator Up,5,1242
+Subject9,Elevator Up,5,1243
+Subject9,Elevator Up,5,1244
+Subject9,Elevator Up,5,1245
+Subject9,Elevator Up,5,1246
+Subject9,Sleeping,1,1247
+Subject9,Sleeping,1,1248
+Subject9,Sleeping,1,1249
+Subject9,Sleeping,1,1250
+Subject9,Sleeping,1,1251
+Subject9,Sleeping,1,1252
+Subject9,Sleeping,1,1253
+Subject9,Sleeping,1,1254
+Subject9,Sleeping,2,1255
+Subject9,Sleeping,2,1256
+Subject9,Sleeping,2,1257
+Subject9,Sleeping,2,1258
+Subject9,Sleeping,2,1259
+Subject9,Sleeping,2,1260
+Subject9,Sleeping,2,1261
+Subject9,Sleeping,2,1262
+Subject9,Sleeping,3,1263
+Subject9,Sleeping,3,1264
+Subject9,Sleeping,3,1265
+Subject9,Sleeping,3,1266
+Subject9,Sleeping,3,1267
+Subject9,Sleeping,3,1268
+Subject9,Sleeping,3,1269
+Subject9,Sleeping,3,1270
+Subject9,Sleeping,4,1271
+Subject9,Sleeping,4,1272
+Subject9,Sleeping,4,1273
+Subject9,Sleeping,4,1274
+Subject9,Sleeping,4,1275
+Subject9,Sleeping,4,1276
+Subject9,Sleeping,4,1277
+Subject9,Sleeping,4,1278
+Subject9,Sleeping,5,1279
+Subject9,Sleeping,5,1280
+Subject9,Sleeping,5,1281
+Subject9,Sleeping,5,1282
+Subject9,Sleeping,5,1283
+Subject9,Sleeping,5,1284
+Subject9,Sleeping,5,1285
+Subject9,Sleeping,5,1286
+Subject9,Walking Forward,1,1287
+Subject9,Walking Forward,1,1288
+Subject9,Walking Forward,1,1289
+Subject9,Walking Forward,1,1290
+Subject9,Walking Forward,1,1291
+Subject9,Walking Forward,1,1292
+Subject9,Walking Forward,1,1293
+Subject9,Walking Forward,1,1294
+Subject9,Walking Forward,1,1295
+Subject9,Walking Forward,1,1296
+Subject9,Walking Forward,1,1297
+Subject9,Walking Forward,1,1298
+Subject9,Walking Forward,1,1299
+Subject9,Walking Forward,2,1300
+Subject9,Walking Forward,2,1301
+Subject9,Walking Forward,2,1302
+Subject9,Walking Forward,2,1303
+Subject9,Walking Forward,2,1304
+Subject9,Walking Forward,2,1305
+Subject9,Walking Forward,2,1306
+Subject9,Walking Forward,2,1307
+Subject9,Walking Forward,2,1308
+Subject9,Walking Forward,2,1309
+Subject9,Walking Forward,2,1310
+Subject9,Walking Forward,2,1311
+Subject9,Walking Forward,2,1312
+Subject9,Walking Forward,2,1313
