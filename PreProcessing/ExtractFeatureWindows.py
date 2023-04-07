@@ -12,7 +12,8 @@ path = os.path.join(os.getcwd(), 'PreProcessing\\USC\\RawData')
 # Get all files in the directory
 files = os.listdir(path)
 
-window_sizes = [5, 6, 7, 8, 9, 10]
+# window_sizes = [5, 6, 7, 8, 9, 10]
+window_sizes = [2, 3, 11]
 
 for window in window_sizes:
     # Create directory for window size

@@ -59,7 +59,7 @@ def compile_files(window_size=7):
 
 
 if __name__ == '__main__':
-    for window_size in ['4', '5', '6', '7', '8', '9', '10']:
+    for window_size in ['2', '3', '11']:# ['4', '5', '6', '7', '8', '9', '10']:
         compile_files(window_size)
 
 

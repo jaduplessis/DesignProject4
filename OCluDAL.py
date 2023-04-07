@@ -6,22 +6,29 @@ import os
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AffinityPropagation
 from sklearn.svm import OneClassSVM, SVC
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 from sklearn.metrics import accuracy_score, f1_score
+
+# Import tensorflow modules for CNN
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, Conv2D, MaxPooling2D
+
 
 import copy
 
 class OCluDAL():
-    def __init__(self, file_path, annotations, damping=0.75, preference=-90):
+    def __init__(self, file_path, annotations, damping=0.75, preference=-180):
         self.df_main = pd.read_csv(file_path)
         self.annotations = annotations
-        self.data = pd.DataFrame(columns=['Accuracy', 'F1 Score', 'Train Accuracy', 'Number of Annotations', 'damping', 'preference', 'Train_type'])# Concat the results to data df
+        self.data = pd.DataFrame(columns=['Accuracy', 'F1 Score', 'Train Accuracy', 'Number of Annotations', 'damping', 'preference', 'Train_type', 'Classes'])# Concat the results to data df
         self.damping = damping
         self.preference = preference
         self.training_type = 'Random'
 
 
-    def initialise_data(self, model_type='SVM', indices=None, output_path=None):
+    def initialise_data(self, model_type='SVM-rbf', indices=None, output_path=None):
         if output_path is not None:
             self.output_path = output_path
         else:
@@ -46,13 +53,41 @@ class OCluDAL():
 
         unlabelled = self.df_main.drop(indices)
         self.unlabelled = unlabelled.drop(['Subject', 'Index'], axis=1)
-        assert len(self.labelled) + len(self.unlabelled) == len(self.df_main)
+        try:
+            assert len(self.labelled) + len(self.unlabelled) == len(self.df_main)
+        except AssertionError:
+            print('===================== Assertion Error =====================')
+            print(f"Sum: {len(self.labelled) + len(self.unlabelled)}, Total: {len(self.df_main)}")
 
         # Initialise model
-        if model_type == 'SVM':
+        if model_type == 'SVM-rbf':
             self.clf = SVC(kernel='rbf', C=1, probability=True)
+        elif model_type == 'SVM-linear':
+            self.clf = SVC(kernel='linear', C=1, probability=True)
+        elif model_type == 'KNN':
+            self.clf = KNeighborsClassifier(n_neighbors=2)
+        elif model_type == 'CNN':
+            self.clf = self.create_cnn(input=self.annotations, output=2)
 
 
+    def create_cnn(self, input, output):
+        model = Sequential()
+
+        model.add(Activation('relu'))
+        model.add(MaxPooling2D(pool_size=(2,2)))
+
+        model.add(Conv2D(32, (3,3)))
+        model.add(Activation('relu'))
+        model.add(MaxPooling2D(pool_size=(2,2)))
+
+        model.add(Dense(output))
+        model.add(Activation('softmax'))
+
+        model.compile(loss='sparse_categorical_crossentropy',
+                        optimizer='adam',
+                        metrics=['accuracy'])
+
+        return model
 
     def preprocessing(self):
         # Standardise data
@@ -70,16 +105,16 @@ class OCluDAL():
         self.unlabelled_y_original = self.unlabelled['Label'].values  
         self.labelled_y_original = self.labelled['Label'].values
 
-        # Get unique labels
-        self.unique_labels = np.unique(self.labelled_y_original)
-        print('Unique labels: ', self.unique_labels)
-
         # Initialize sets to be used in iterations
         self.labelled_X_new = self.labelled_X_original.copy()
         self.unlabelled_X_new = self.unlabelled_X_original.copy()
 
         self.labelled_y_new = self.labelled_y_original.copy()
         self.unlabelled_y_new = self.unlabelled_y_original.copy()
+
+        # Get unique labels
+        self.unique_labels = np.unique(self.labelled_y_new)
+        print('Unique labels: ', self.unique_labels)
 
 
     def oracle_annotations(self, indices):
@@ -103,10 +138,17 @@ class OCluDAL():
         # Convert labels to array
         y = self.labelled_y_new.copy()
 
+        # if self.model_type == 'CNN':
+        #     X = X.reshape(X.shape[0], X.shape[1], X.shape[2], 1)
+        #     y = y.reshape(y.shape[0], 1)
+        #     clf = self.create_cnn(input=X.shape[1:], output=len(self.unique_labels))
+        #     clf.fit(X, y, epochs=10, batch_size=32)
+        # else:
         clf = self.clf
 
         # train the SVM model
         clf.fit(X, y)
+
 
         self.run_classification(clf)
         return clf
@@ -166,15 +208,17 @@ class OCluDAL():
         n_samples, n_classes = probalities.shape
 
         # Calculate the entropy for each sample
-        entropy_list = []
+        entropy = -np.sum(probalities * np.log(probalities), axis=1)
 
+        entropy = []
         for i in range(n_samples):
-            probs = probalities[i]
-            entropy = -np.sum(probs * np.log(probs))
-            entropy_list.append(entropy)
-
-        assert len(entropy_list) == n_samples
+            k_ = []
+            for k in range(n_classes):
+                k_.append(probalities[i][k] * np.log(probalities[i][k]))
+            entropy.append(-sum(k_))
         
+        assert len(entropy) == n_samples
+
         # Get the indices of the n samples with the highest entropy
         indices = np.argsort(entropy)[-n:]
 
@@ -182,7 +226,7 @@ class OCluDAL():
 
 
 
-    def step1(self, max_iter=5):
+    def step1(self, max_iter=1):
 
         self.train_model()
         self.training_type = 'AP'
@@ -225,9 +269,11 @@ class OCluDAL():
 
             # Train model
             self.train_model()
+            
 
 
-    def step2(self, max_iter=20, n=5, model_type='SVM', max_samples=1000, sampling_type='BvSB'):
+
+    def step2(self, max_iter=800, n=5, model_type='SVM', max_samples=1000, sampling_type='BvSB'):
         """
         Perform uncertainty sampling and model training
         """
@@ -239,7 +285,7 @@ class OCluDAL():
         while iter <= max_iter and num_samples < max_samples:
             print(f"Iteration {iter}  /{max_iter}     |Labelled data size: {len(self.labelled_X_new)}  |Unlabelled data size: {len(self.unlabelled_X_new)}", end='\r')
             # Train SVM
-            clf = self.train_model()        
+            clf = self.train_model()
             
             # Run classification on unlabelled data
             self.run_classification(clf)
@@ -294,9 +340,13 @@ class OCluDAL():
         X_train = self.labelled_X_new
 
         # Get predictions
-        y_test_pred = clf.predict(X_test)
-        y_train_pred = clf.predict(X_train)
-
+        try:
+            y_test_pred = clf.predict(X_test)
+            y_train_pred = clf.predict(X_train)
+        except:
+            y_test_pred = clf.predict_classes(X_test)
+            y_train_pred = clf.predict_classes(X_train)
+        
         # Get true labels
         y_test_true = self.unlabelled_y_new
         y_train_true = self.labelled_y_new
@@ -308,6 +358,8 @@ class OCluDAL():
         test_accuracy = accuracy_score(y_test_true, y_test_pred)
         train_accuracy = accuracy_score(y_train_true, y_train_pred)
 
+        classes = len(np.unique(self.labelled_y_new))
+
         # self.data = pd.DataFrame(columns=['model_type', 'accuracy', 'f1_score', 'Train Accuracy', 'Number of Annotations', 'damping', 'preference'])# Concat the results to data df
         df = pd.DataFrame({
             'Accuracy': test_accuracy,
@@ -316,7 +368,8 @@ class OCluDAL():
             'Number of Annotations': len(self.labelled_X_new),
             'damping': self.damping,
             'preference': self.preference,
-            'Train_type': self.training_type
+            'Train_type': self.training_type,
+            'Classes': classes
         }, index=[0])
 
         # Concat the results to data df
@@ -343,9 +396,9 @@ if __name__ == '__main__':
     pref = -180
 
     OC = OCluDAL(path, annotations, damping=damping, preference=pref)
-    OC.initialise_data(indices=indices, output_path=f'Random_sampling_verification.csv')
+    OC.initialise_data(indices=indices, model_type='CNN',)
+                        # output_path=f'{folder}/BvSB_{i}_CNN.csv')
     OC.preprocessing()
     OC.step1(max_iter=0)
-    clf = OC.step2(max_iter=500, n=10, max_samples=800, sampling_type='Entropy')
-
+    clf = OC.step2(max_iter=800, n=5, max_samples=800, sampling_type='BvSB')
 
