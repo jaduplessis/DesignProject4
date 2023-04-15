@@ -107,7 +107,8 @@ def compute_icv_ics(child_models, data_point):
         votes.append(child_model.predict([data_point]))
 
     # Compute internal consensus score
-    ics = sum(votes) / len(votes)
+    # ics = sum(votes) / len(votes)
+    ics = child_model.decision_function([data_point])
 
     # If any of the votes are 1, then the internal consensus vote is 1
     if 1 in votes:
@@ -115,7 +116,7 @@ def compute_icv_ics(child_models, data_point):
     else:
         icv = 0
 
-    return icv, ics
+    return icv#, ics
 
 
 def compute_cics(models, data_point):
@@ -139,14 +140,15 @@ def compute_cics(models, data_point):
     ICV = []
     total_weights = 0
     for model in models:
-        icv, ics = compute_icv_ics(models[model]['child_models'], data_point)
+        # icv, ics = compute_icv_ics(models[model]['child_models'], data_point)
+        icv = compute_icv_ics(models[model]['child_models'], data_point)
         ICV.append(icv)
-        combined_score.append(ics * models[model]['weights'])
+        # combined_score.append(ics * models[model]['weights'])
         total_weights += models[model]['weights']
 
-    CICS = sum(combined_score) / total_weights
+    # CICS = sum(combined_score) / total_weights
 
-    return ICV, CICS
+    return ICV#, CICS
 
 
 def compute_cecs(models, data_point):
@@ -180,7 +182,7 @@ def compute_cecs(models, data_point):
     else:
         CECV = 0
 
-    return CECV, CECS
+    return CECV#, CECS
 
 
 def calculate_weights(CECV_all, ICV_all, models):
@@ -236,19 +238,60 @@ def train_ensemble(models, df_train):
     CECV_all = []
 
     for i in range(len(df_train)):
-    # for i in range(20):
+    # for i in range(10):
         print('Training data point: {}/{}'.format(i+1, len(df_train)), end='\r')
 
         data_point = df_train.iloc[i]
-        ICV, CICS = compute_cics(models.models, data_point)
+        # ICV, CICS = compute_cics(models.models, data_point)
+        ICV = compute_cics(models.models, data_point)
         ICV_all.append(ICV)
-        CECV, CECS = compute_cecs(models.models, data_point)
+        # CECV, CECS = compute_cecs(models.models, data_point)
+        CECV = compute_cecs(models.models, data_point)
         CECV_all.append(CECV)
 
     # Update weights
     models = calculate_weights(CECV_all, ICV_all, models)
-    print('Training complete. \n ------------------')
+    print('Training complete. \n------------------')
     return models
+
+
+def calculate_CECS_CICS_scores(models, data):
+    """
+    Calculates the normality score for each data point in the data.
+
+    Parameters:
+    models: List
+        List of models
+    data: Pandas DataFrame
+        Data to calculate normality score for
+
+    Returns:
+    normality_scores: List
+        List of normality scores
+    """
+
+    # Calculate normality score
+    print('------------------ \n')
+    for model in models:
+        # Predict data point using parent model
+        ecs = models[model]['parent_model'].decision_function(data)
+
+        ics = []
+        for child_model in models[model]['child_models']:
+            ics.append(child_model.decision_function(data))
+        
+        cics = sum(ics) / models[model]['weights']
+
+        # If no scores present, create list. Otherwise concatenate
+        if 'ecs' not in models[model]:
+            models[model]['ecs'] = ecs
+            models[model]['cics'] = cics
+        else:
+            models[model]['ecs'] = np.concatenate((models[model]['ecs'], ecs))
+            models[model]['cics'] = np.concatenate((models[model]['cics'], cics))
+
+    return models
+
 
 
 def perform_CNDE(models):
@@ -266,57 +309,94 @@ def perform_CNDE(models):
         List of models
     """
     df_train = models.df_train
+
     # Train ensemble
     models = train_ensemble(models, df_train)
 
-    normality_scores = []
-    all_CICS = []
-    all_CECS = []
-    # Calculate normality score
-    print('------------------ \n')
-    for i in range(len(df_train)):
-    # for i in range(20):
-        print('Calculating normality score: {}/{}'.format(i+1, len(df_train)), end='\r')
-        data_point = df_train.iloc[i]
-        ICV, CICS = compute_cics(models.models, data_point)
-        CECV, CECS = compute_cecs(models.models, data_point)
+    # Score ensemble
+    # models.models = calculate_CECS_CICS_scores(models.models, df_train)
+    
+    # for model in models.models:
+    #     # Normalise scores
+    #     models.models[model]['standardised_ecs'] = (models.models[model]['ecs'] - np.mean(models.models[model]['ecs'])) / np.std(models.models[model]['ecs'])
+    #     models.models[model]['standardised_cics'] = (models.models[model]['cics'] - np.mean(models.models[model]['cics'])) / np.std(models.models[model]['cics'])
 
-        all_CICS.append(CICS)
-        all_CECS.append(CECS)
+    #     # # Any values below -4 std are set to -4 std
+    #     # models.models[model]['ecs'] = np.where(models.models[model]['ecs'] < np.mean(models.models[model]['ecs']) - 4 * np.std(models.models[model]['ecs']), np.mean(models.models[model]['ecs']) - 4 * np.std(models.models[model]['ecs']), models.models[model]['ecs'])
+    #     # models.models[model]['cics'] = np.where(models.models[model]['cics'] < np.mean(models.models[model]['cics']) - 4 * np.std(models.models[model]['cics']), np.mean(models.models[model]['cics']) - 4 * np.std(models.models[model]['cics']), models.models[model]['cics'])
 
-        # Calculate normality score
-        N = (CICS + CECS) / 2
-        normality_scores.append(N)
+    #     # Print scores
+    #     print('Model {} ECS: {}'.format(model, models.models[model]['ecs']))
+    #     print('Model {} CICS: {}'.format(model, models.models[model]['cics']))
 
-    models.normality_scores = normality_scores
-    models.all_CICS = all_CICS
-    models.all_CECS = all_CECS
+    # # Calculate average CICs and ECSs
+    # CICS = np.average([models.models[model]['standardised_cics'] for model in models.models], axis=0)
+    # CECS = np.average([models.models[model]['standardised_ecs'] for model in models.models], axis=0)
+
+    # # Calculate normality score
+    # # normality_scores = (CICS + CECS) / 2
+
+    # # models.normality_scores = normality_scores
+    # models.CICS = CICS
+    # models.CECS = CECS
+
     models.weights = [models.models[model]['weights'] for model in models.models]
     return models
 
 
 def test_ensemble(models, path):
     df_test = pd.read_csv(path)
+    df_train = models.df_train
+
+    df = pd.concat([df_train, df_test], ignore_index=True)
+
+    # Score ensemble
+    models.models = calculate_CECS_CICS_scores(models.models, df)
+    
+    for model in models.models:
+        # Normalise scores
+        models.models[model]['standardised_ecs'] = (models.models[model]['ecs'] - np.mean(models.models[model]['ecs'])) / np.std(models.models[model]['ecs'])
+        models.models[model]['standardised_cics'] = (models.models[model]['cics'] - np.mean(models.models[model]['cics'])) / np.std(models.models[model]['cics'])
+
+        # Print scores
+        print('Model {} ECS: {}'.format(model, models.models[model]['standardised_ecs']))
+        print('Model {} CICS: {}'.format(model, models.models[model]['standardised_cics']))
+
+    # Calculate average CICs and ECSs
+    CICS = np.average([models.models[model]['standardised_cics'] for model in models.models], axis=0)
+    CECS = np.average([models.models[model]['standardised_ecs'] for model in models.models], axis=0)
 
     # Calculate normality score
-    normality_scores = models.normality_scores
-    all_CICS = models.all_CICS
-    all_CECS = models.all_CECS
-    for i in range(len(df_test)):
-        print('Calculating normality score: {}/{}'.format(i+1, len(df_test)), end='\r')
-        data_point = df_test.iloc[i]
-        ICV, CICS = compute_cics(models.models, data_point)
-        CECV, CECS = compute_cecs(models.models, data_point)
+    normality_scores = (CICS + CECS) / 2
 
-        all_CICS.append(CICS)
-        all_CECS.append(CECS)
-
-        # Calculate normality score
-        N = (CICS + CECS) / 2
-        normality_scores.append(N)
-
+    # Concatenate train and test scores
     models.normality_scores = normality_scores
-    models.all_CICS = all_CICS
-    models.all_CECS = all_CECS
+    models.CICS = CICS
+    models.CECS = CECS
+
     return models
     
+
+
+if __name__ == '__main__':
+    from CNDE import Models
+    from CNDE import perform_CNDE, test_ensemble
+
+    import pandas as pd
+    import numpy as np
+
+    # Turn off user warnings
+    import warnings
+    warnings.filterwarnings('ignore')
+
+    path_train = 'df_train_sleep.csv'
+    path_test = 'df_test_sleep.csv'
+
+    c = 0.01
+
+    sleep1 = Models(path_train, k=3, contamination=c)
+    sleep1.instantiate_models()
+    sleep1 = perform_CNDE(sleep1)
+    print('\n Testing ensemble')
+    sleep1 = test_ensemble(sleep1, path_test)
+    print(sleep1.normality_scores)

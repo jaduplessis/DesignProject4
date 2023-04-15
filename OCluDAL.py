@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import pickle
+import joblib
 import os
 
 # Import sklearn modules
@@ -22,13 +24,13 @@ class OCluDAL():
     def __init__(self, file_path, annotations, damping=0.75, preference=-180):
         self.df_main = pd.read_csv(file_path)
         self.annotations = annotations
-        self.data = pd.DataFrame(columns=['Accuracy', 'F1 Score', 'Train Accuracy', 'Number of Annotations', 'damping', 'preference', 'Train_type', 'Classes'])# Concat the results to data df
+        self.data = pd.DataFrame(columns=['Accuracy', 'F1 Score', 'Train Accuracy', 'Number of Annotations', 'damping', 'preference', 'Train_type', 'Classes'])
         self.damping = damping
         self.preference = preference
         self.training_type = 'Random'
 
 
-    def initialise_data(self, model_type='SVM-rbf', indices=None, output_path=None):
+    def initialise_data(self, model_type='SVM-linear', indices=None, output_path=None):
         if output_path is not None:
             self.output_path = output_path
         else:
@@ -49,10 +51,15 @@ class OCluDAL():
 
         # Create labelled and unlabelled dataframes
         labelled = self.df_main.iloc[indices]
-        self.labelled = labelled.drop(['Subject', 'Index'], axis=1)
-
         unlabelled = self.df_main.drop(indices)
-        self.unlabelled = unlabelled.drop(['Subject', 'Index'], axis=1)
+
+        if 'Subject' in labelled.columns and 'Index' in labelled.columns:
+            labelled = labelled.drop(['Subject', 'Index'], axis=1)
+            unlabelled = unlabelled.drop(['Subject', 'Index'], axis=1)
+        
+        self.labelled = labelled
+        self.unlabelled = unlabelled
+
         try:
             assert len(self.labelled) + len(self.unlabelled) == len(self.df_main)
         except AssertionError:
@@ -64,8 +71,12 @@ class OCluDAL():
             self.clf = SVC(kernel='rbf', C=1, probability=True)
         elif model_type == 'SVM-linear':
             self.clf = SVC(kernel='linear', C=1, probability=True)
-        elif model_type == 'KNN':
+        elif model_type == 'KNN2':
             self.clf = KNeighborsClassifier(n_neighbors=2)
+        elif model_type == 'KNN5':
+            self.clf = KNeighborsClassifier(n_neighbors=5)
+        elif model_type == 'KNN10':
+            self.clf = KNeighborsClassifier(n_neighbors=10)
         elif model_type == 'CNN':
             self.clf = self.create_cnn(input=self.annotations, output=2)
 
@@ -226,13 +237,13 @@ class OCluDAL():
 
 
 
-    def step1(self, max_iter=1):
+    def step1(self, max_iter=1, max_samples=800):
 
         self.train_model()
         self.training_type = 'AP'
         # Start iterations
         iter_count = 0
-        while iter_count < max_iter:
+        while iter_count < max_iter and len(self.labelled_X_new) < max_samples:
             iter_count += 1    
             print(f"Iteration {iter_count}")
                 
@@ -316,6 +327,24 @@ class OCluDAL():
 
         return clf
     
+    
+    def load_clf(self, clf_path):
+        """
+        Load trained classifier.
+
+        Parameters
+        ----------
+        clf_path : str
+            Path to trained classifier.
+
+        Returns
+        -------
+        clf : sklearn classifier
+            Trained classifier.
+        """
+        clf = joblib.load(clf_path)
+        return clf
+    
 
     def run_classification(self, clf):
         """
@@ -359,6 +388,7 @@ class OCluDAL():
         train_accuracy = accuracy_score(y_train_true, y_train_pred)
 
         classes = len(np.unique(self.labelled_y_new))
+        unique_classes = str(np.unique(self.labelled_y_new))
 
         # self.data = pd.DataFrame(columns=['model_type', 'accuracy', 'f1_score', 'Train Accuracy', 'Number of Annotations', 'damping', 'preference'])# Concat the results to data df
         df = pd.DataFrame({
@@ -369,7 +399,7 @@ class OCluDAL():
             'damping': self.damping,
             'preference': self.preference,
             'Train_type': self.training_type,
-            'Classes': classes
+            'Classes': classes,
         }, index=[0])
 
         # Concat the results to data df
@@ -379,6 +409,18 @@ class OCluDAL():
 
         return f1, test_accuracy, len(self.labelled_X_new)
 
+
+    def save_clf(self, clf):
+        """
+        Save the classifier to a pickle file.
+
+        Parameters
+        ----------
+        clf : sklearn classifier
+            Trained classifier.
+        """
+        model_name = f'{self.output_path}'.split('.')[0]
+        pickle.dump(clf, open(f"Models\\{self.output_path}", 'wb'))
     
     def copy(self):
         """
@@ -390,15 +432,19 @@ class OCluDAL():
 if __name__ == '__main__':
     indices = np.arange(138, 148)
     path = 'PreProcessing\\USC\\CompiledData_7.csv'
+    df = pd.read_csv(path)
     annotations = 10
+    indices = df[(df['Label'] == 'Standing') | (df['Label'] == 'Walking Forward')].index
+    indices = np.random.choice(indices, annotations, replace=False)
 
     damping = 0.75
     pref = -180
 
     OC = OCluDAL(path, annotations, damping=damping, preference=pref)
-    OC.initialise_data(indices=indices, model_type='CNN',)
+    OC.initialise_data(indices=indices)
                         # output_path=f'{folder}/BvSB_{i}_CNN.csv')
     OC.preprocessing()
-    OC.step1(max_iter=0)
-    clf = OC.step2(max_iter=800, n=5, max_samples=800, sampling_type='BvSB')
+    OC.step1(max_iter=1)
+    clf = OC.step2(max_iter=1000, n=5, max_samples=1500, sampling_type='BvSB')
+    OC.save_clf(clf)
 

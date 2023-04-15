@@ -1,0 +1,932 @@
+Accuracy,F1 Score,Train Accuracy,Number of Annotations,damping,preference,Train_type,Classes,Unique Classes
+0.21930544161881324,0.08017485426940316,1.0,10,0.75,-180,Random,2,['Standing' 'Walking Forward']
+0.21930544161881324,0.08017485426940316,1.0,10,0.75,-180,BvSB,2,['Standing' 'Walking Forward']
+0.21930544161881324,0.08017485426940316,1.0,10,0.75,-180,BvSB,2,['Standing' 'Walking Forward']
+0.25657174151150053,0.14871227818598606,1.0,15,0.75,-180,BvSB,4,['Standing' 'Walking Forward' 'Walking Left' 'Walking Upstairs']
+0.25657174151150053,0.14871227818598606,1.0,15,0.75,-180,BvSB,4,['Standing' 'Walking Forward' 'Walking Left' 'Walking Upstairs']
+0.2890046613655059,0.19052356799717707,1.0,20,0.75,-180,BvSB,5,"['Standing' 'Walking Downstairs' 'Walking Forward' 'Walking Left'
+ 'Walking Upstairs']"
+0.2890046613655059,0.19052356799717707,1.0,20,0.75,-180,BvSB,5,"['Standing' 'Walking Downstairs' 'Walking Forward' 'Walking Left'
+ 'Walking Upstairs']"
+0.3563975837451949,0.28193965550099653,1.0,25,0.75,-180,BvSB,7,"['Running Forward' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.3563975837451949,0.28193965550099653,1.0,25,0.75,-180,BvSB,7,"['Running Forward' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.43469892768765467,0.3675996380566351,1.0,30,0.75,-180,BvSB,8,"['Jumping Up' 'Running Forward' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.43469892768765467,0.3675996380566351,1.0,30,0.75,-180,BvSB,8,"['Jumping Up' 'Running Forward' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.43777533039647576,0.3711556364351529,1.0,35,0.75,-180,BvSB,8,"['Jumping Up' 'Running Forward' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.43777533039647576,0.3711556364351529,1.0,35,0.75,-180,BvSB,8,"['Jumping Up' 'Running Forward' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.4681555004135649,0.4034373343216038,1.0,40,0.75,-180,BvSB,8,"['Jumping Up' 'Running Forward' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.4681555004135649,0.4034373343216038,1.0,40,0.75,-180,BvSB,8,"['Jumping Up' 'Running Forward' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.49254555494202096,0.44285527779884204,1.0,45,0.75,-180,BvSB,9,"['Jumping Up' 'Running Forward' 'Sleeping' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.49254555494202096,0.44285527779884204,1.0,45,0.75,-180,BvSB,9,"['Jumping Up' 'Running Forward' 'Sleeping' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.5797622338954935,0.5406051245202538,1.0,50,0.75,-180,BvSB,9,"['Jumping Up' 'Running Forward' 'Sleeping' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.5797622338954935,0.5406051245202538,1.0,50,0.75,-180,BvSB,9,"['Jumping Up' 'Running Forward' 'Sleeping' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.6112956810631229,0.5657396651349507,1.0,55,0.75,-180,BvSB,9,"['Jumping Up' 'Running Forward' 'Sleeping' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.6112956810631229,0.5657396651349507,1.0,55,0.75,-180,BvSB,9,"['Jumping Up' 'Running Forward' 'Sleeping' 'Standing' 'Walking Downstairs'
+ 'Walking Forward' 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.6459661768782922,0.6157070465269014,1.0,60,0.75,-180,BvSB,10,"['Jumping Up' 'Running Forward' 'Sitting' 'Sleeping' 'Standing'
+ 'Walking Downstairs' 'Walking Forward' 'Walking Left' 'Walking Right'
+ 'Walking Upstairs']"
+0.6459661768782922,0.6157070465269014,1.0,60,0.75,-180,BvSB,10,"['Jumping Up' 'Running Forward' 'Sitting' 'Sleeping' 'Standing'
+ 'Walking Downstairs' 'Walking Forward' 'Walking Left' 'Walking Right'
+ 'Walking Upstairs']"
+0.6696279844530816,0.6415492131639198,1.0,65,0.75,-180,BvSB,10,"['Jumping Up' 'Running Forward' 'Sitting' 'Sleeping' 'Standing'
+ 'Walking Downstairs' 'Walking Forward' 'Walking Left' 'Walking Right'
+ 'Walking Upstairs']"
+0.6696279844530816,0.6415492131639198,1.0,65,0.75,-180,BvSB,10,"['Jumping Up' 'Running Forward' 'Sitting' 'Sleeping' 'Standing'
+ 'Walking Downstairs' 'Walking Forward' 'Walking Left' 'Walking Right'
+ 'Walking Upstairs']"
+0.7297748123436196,0.6959252576042618,1.0,70,0.75,-180,BvSB,10,"['Jumping Up' 'Running Forward' 'Sitting' 'Sleeping' 'Standing'
+ 'Walking Downstairs' 'Walking Forward' 'Walking Left' 'Walking Right'
+ 'Walking Upstairs']"
+0.7297748123436196,0.6959252576042618,1.0,70,0.75,-180,BvSB,10,"['Jumping Up' 'Running Forward' 'Sitting' 'Sleeping' 'Standing'
+ 'Walking Downstairs' 'Walking Forward' 'Walking Left' 'Walking Right'
+ 'Walking Upstairs']"
+0.7355233853006682,0.7059092327207218,1.0,75,0.75,-180,BvSB,11,"['Elevator Down' 'Jumping Up' 'Running Forward' 'Sitting' 'Sleeping'
+ 'Standing' 'Walking Downstairs' 'Walking Forward' 'Walking Left'
+ 'Walking Right' 'Walking Upstairs']"
+0.7355233853006682,0.7059092327207218,1.0,75,0.75,-180,BvSB,11,"['Elevator Down' 'Jumping Up' 'Running Forward' 'Sitting' 'Sleeping'
+ 'Standing' 'Walking Downstairs' 'Walking Forward' 'Walking Left'
+ 'Walking Right' 'Walking Upstairs']"
+0.7393364928909952,0.7086362977648694,1.0,80,0.75,-180,BvSB,11,"['Elevator Down' 'Jumping Up' 'Running Forward' 'Sitting' 'Sleeping'
+ 'Standing' 'Walking Downstairs' 'Walking Forward' 'Walking Left'
+ 'Walking Right' 'Walking Upstairs']"
+0.7393364928909952,0.7086362977648694,1.0,80,0.75,-180,BvSB,11,"['Elevator Down' 'Jumping Up' 'Running Forward' 'Sitting' 'Sleeping'
+ 'Standing' 'Walking Downstairs' 'Walking Forward' 'Walking Left'
+ 'Walking Right' 'Walking Upstairs']"
+0.7579564489112228,0.7393091839822046,1.0,85,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.7579564489112228,0.7393091839822046,1.0,85,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.7637685211070729,0.752546587916969,1.0,90,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.7637685211070729,0.752546587916969,1.0,90,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.788073908174692,0.7743021391434803,1.0,95,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.788073908174692,0.7743021391434803,1.0,95,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.7975890103728623,0.7862513321412514,1.0,100,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.7975890103728623,0.7862513321412514,1.0,100,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8034811903425042,0.7924706397401716,1.0,105,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8034811903425042,0.7924706397401716,1.0,105,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8032049479898791,0.7933206630620008,1.0,110,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8032049479898791,0.7933206630620008,1.0,110,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8043355855855856,0.7978378781540486,1.0,115,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8043355855855856,0.7978378781540486,1.0,115,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8065971243304201,0.7992323165908533,1.0,120,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8065971243304201,0.7992323165908533,1.0,120,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.7984189723320159,0.7959441357334481,1.0,125,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.7984189723320159,0.7959441357334481,1.0,125,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8040712468193384,0.8023054240985518,1.0,130,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8040712468193384,0.8023054240985518,1.0,130,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8049263873159683,0.8032964232406048,1.0,135,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8049263873159683,0.8032964232406048,1.0,135,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8083356960589736,0.8052270839839939,1.0,140,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8083356960589736,0.8052270839839939,1.0,140,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8145939806927882,0.8106515391371206,1.0,145,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8145939806927882,0.8106515391371206,1.0,145,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8205857264714245,0.8169864641152486,0.9933333333333333,150,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8205857264714245,0.8169864641152486,0.9933333333333333,150,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8228929384965832,0.8192144920630875,0.9935483870967742,155,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8228929384965832,0.8192144920630875,0.9935483870967742,155,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8203592814371258,0.8172346329972872,0.98125,160,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8203592814371258,0.8172346329972872,0.98125,160,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8206739006282124,0.8170229189269012,0.9818181818181818,165,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8206739006282124,0.8170229189269012,0.9818181818181818,165,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8261366885902202,0.8222166580936204,0.9823529411764705,170,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8261366885902202,0.8222166580936204,0.9823529411764705,170,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8290378006872853,0.8246627643994491,0.9828571428571429,175,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8290378006872853,0.8246627643994491,0.9828571428571429,175,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8313736736449671,0.8270680952429387,0.9777777777777777,180,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8313736736449671,0.8270680952429387,0.9777777777777777,180,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8340034462952326,0.8306115321398096,0.9783783783783784,185,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8340034462952326,0.8306115321398096,0.9783783783783784,185,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8331895312050618,0.8295765353683432,0.9736842105263158,190,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8331895312050618,0.8295765353683432,0.9736842105263158,190,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.836405529953917,0.8331496773578574,0.958974358974359,195,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.836405529953917,0.8331496773578574,0.958974358974359,195,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8396308047303144,0.8363008516556277,0.95,200,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8396308047303144,0.8363008516556277,0.95,200,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8385326400924321,0.8340190094428558,0.9609756097560975,205,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8385326400924321,0.8340190094428558,0.9609756097560975,205,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8403239803297657,0.8352820642450685,0.9523809523809523,210,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8403239803297657,0.8352820642450685,0.9523809523809523,210,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8418308227114716,0.8369513969765388,0.9534883720930233,215,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8418308227114716,0.8369513969765388,0.9534883720930233,215,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8439222512329562,0.8386243296943039,0.9545454545454546,220,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8439222512329562,0.8386243296943039,0.9545454545454546,220,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8515398024404416,0.8467109589980419,0.9466666666666667,225,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8515398024404416,0.8467109589980419,0.9466666666666667,225,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8513238289205702,0.846253683793699,0.9521739130434783,230,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8513238289205702,0.846253683793699,0.9521739130434783,230,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8519813519813519,0.8468271408348679,0.9446808510638298,235,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8519813519813519,0.8468271408348679,0.9446808510638298,235,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8535161949226729,0.8485518906969787,0.9541666666666667,240,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8535161949226729,0.8485518906969787,0.9541666666666667,240,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8594389246054939,0.8555961684710051,0.9510204081632653,245,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8594389246054939,0.8555961684710051,0.9510204081632653,245,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8604038630377524,0.8561897499184101,0.948,250,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8604038630377524,0.8561897499184101,0.948,250,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8610785463071512,0.8566164301521093,0.9490196078431372,255,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8610785463071512,0.8566164301521093,0.9490196078431372,255,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.858233049603757,0.8544948086152186,0.9461538461538461,260,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.858233049603757,0.8544948086152186,0.9461538461538461,260,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8574368018812464,0.8537473335068964,0.9358490566037736,265,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8574368018812464,0.8537473335068964,0.9358490566037736,265,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8607594936708861,0.857309467829956,0.9296296296296296,270,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8607594936708861,0.857309467829956,0.9296296296296296,270,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8649764150943396,0.860635289894654,0.9236363636363636,275,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8649764150943396,0.860635289894654,0.9236363636363636,275,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8697962798937112,0.8652731970947085,0.9285714285714286,280,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8697962798937112,0.8652731970947085,0.9285714285714286,280,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8701951507983442,0.8653109398666893,0.9298245614035088,285,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8701951507983442,0.8653109398666893,0.9298245614035088,285,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8697068403908795,0.8643523658247668,0.9172413793103448,290,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8697068403908795,0.8643523658247668,0.9172413793103448,290,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8757413997627521,0.871205509957616,0.911864406779661,295,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8757413997627521,0.871205509957616,0.911864406779661,295,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8761508761508762,0.871302389866169,0.9066666666666666,300,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8761508761508762,0.871302389866169,0.9066666666666666,300,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8750743604997026,0.8707339376240846,0.9016393442622951,305,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8750743604997026,0.8707339376240846,0.9016393442622951,305,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8751861781352398,0.8716230681525844,0.9096774193548387,310,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8751861781352398,0.8716230681525844,0.9096774193548387,310,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8785799522673031,0.8750543563832649,0.9111111111111111,315,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8785799522673031,0.8750543563832649,0.9111111111111111,315,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8766059157454437,0.8727450563488706,0.89375,320,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8766059157454437,0.8727450563488706,0.89375,320,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8803111909036505,0.876691042509915,0.8861538461538462,325,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8803111909036505,0.876691042509915,0.8861538461538462,325,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8807311956847468,0.8770521350156603,0.8818181818181818,330,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8807311956847468,0.8770521350156603,0.8818181818181818,330,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8823529411764706,0.878455896763586,0.8895522388059701,335,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8823529411764706,0.878455896763586,0.8895522388059701,335,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8824767057409078,0.8783461184805098,0.8970588235294118,340,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8824767057409078,0.8783461184805098,0.8970588235294118,340,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8835039133052378,0.8800301844715824,0.8898550724637682,345,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8835039133052378,0.8800301844715824,0.8898550724637682,345,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8848356949050347,0.8810199449418064,0.8828571428571429,350,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8848356949050347,0.8810199449418064,0.8828571428571429,350,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8885869565217391,0.8849601684902021,0.8873239436619719,355,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8885869565217391,0.8849601684902021,0.8873239436619719,355,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8878137284547929,0.8842996900886897,0.8805555555555555,360,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8878137284547929,0.8842996900886897,0.8805555555555555,360,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8909751665657177,0.8865936205584586,0.8602739726027397,365,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8909751665657177,0.8865936205584586,0.8602739726027397,365,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8902032150439794,0.8853794119670321,0.8594594594594595,370,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8902032150439794,0.8853794119670321,0.8594594594594595,370,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8897326852976913,0.8852681452148157,0.848,375,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8897326852976913,0.8852681452148157,0.848,375,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8935199269850927,0.8891849829618707,0.8447368421052631,380,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8935199269850927,0.8891849829618707,0.8447368421052631,380,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8951858622790981,0.8917215413959154,0.8311688311688312,385,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8951858622790981,0.8917215413959154,0.8311688311688312,385,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8904485810192249,0.887210569685123,0.8307692307692308,390,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8904485810192249,0.887210569685123,0.8307692307692308,390,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8905867970660146,0.8876526875584365,0.8481012658227848,395,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8905867970660146,0.8876526875584365,0.8481012658227848,395,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8913376186103459,0.8885935520428501,0.8575,400,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8913376186103459,0.8885935520428501,0.8575,400,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8954629061925199,0.8926010745776215,0.8518518518518519,405,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8954629061925199,0.8926010745776215,0.8518518518518519,405,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.894995394534848,0.8924485657388052,0.8512195121951219,410,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.894995394534848,0.8924485657388052,0.8512195121951219,410,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8960639606396064,0.8933924308759182,0.8481927710843373,415,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8960639606396064,0.8933924308759182,0.8481927710843373,415,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8974437942716353,0.8949348588275311,0.8380952380952381,420,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.8974437942716353,0.8949348588275311,0.8380952380952381,420,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9000616903146206,0.8969933902480732,0.84,425,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9000616903146206,0.8969933902480732,0.84,425,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.901760889712697,0.8997150903655929,0.8441860465116279,430,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.901760889712697,0.8997150903655929,0.8441860465116279,430,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.901299504950495,0.8987241695968364,0.8390804597701149,435,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.901299504950495,0.8987241695968364,0.8390804597701149,435,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.900836690424543,0.8984439966882304,0.8363636363636363,440,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.900836690424543,0.8984439966882304,0.8363636363636363,440,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9056486654252017,0.9033794813837135,0.8337078651685393,445,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9056486654252017,0.9033794813837135,0.8337078651685393,445,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9067454149829033,0.9045998903651711,0.8377777777777777,450,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9067454149829033,0.9045998903651711,0.8377777777777777,450,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9112702366127023,0.9091250283405331,0.832967032967033,455,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9112702366127023,0.9091250283405331,0.832967032967033,455,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.912067352666043,0.9103304417950273,0.8239130434782609,460,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.912067352666043,0.9103304417950273,0.8239130434782609,460,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9125546533416614,0.9107573933571188,0.8193548387096774,465,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9125546533416614,0.9107573933571188,0.8193548387096774,465,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9142946512355333,0.9122004925816579,0.825531914893617,470,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9142946512355333,0.9122004925816579,0.825531914893617,470,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9157268170426065,0.9139399865718618,0.84,475,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9157268170426065,0.9139399865718618,0.84,475,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9133981801066834,0.9117293856140009,0.8375,480,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9133981801066834,0.9117293856140009,0.8375,480,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9138906348208674,0.9124626084376101,0.8309278350515464,485,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9138906348208674,0.9124626084376101,0.8309278350515464,485,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9153289266603715,0.9137087641665331,0.8306122448979592,490,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9153289266603715,0.9137087641665331,0.8306122448979592,490,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9158259773013872,0.914150932791054,0.8202020202020202,495,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9158259773013872,0.914150932791054,0.8202020202020202,495,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9150615724660562,0.913116329108593,0.832,500,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9150615724660562,0.913116329108593,0.832,500,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.915876027830487,0.9143470672865803,0.8217821782178217,505,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.915876027830487,0.9143470672865803,0.8217821782178217,505,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9166930630345265,0.9149747229420319,0.8196078431372549,510,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9166930630345265,0.9149747229420319,0.8196078431372549,510,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9149746192893401,0.9130553048545103,0.8271844660194175,515,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9149746192893401,0.9130553048545103,0.8271844660194175,515,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9170638703527169,0.9145714727012151,0.8365384615384616,520,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9170638703527169,0.9145714727012151,0.8365384615384616,520,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9175684277530235,0.9148332523350986,0.8323809523809523,525,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9175684277530235,0.9148332523350986,0.8323809523809523,525,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9199872489639783,0.917322408008315,0.8320754716981132,530,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9199872489639783,0.917322408008315,0.8320754716981132,530,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.921455938697318,0.9189103530501319,0.8299065420560747,535,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.921455938697318,0.9189103530501319,0.8299065420560747,535,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.923568915893828,0.920555702662818,0.8222222222222222,540,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.923568915893828,0.920555702662818,0.8222222222222222,540,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9263292761050609,0.9239629636996669,0.8201834862385321,545,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9263292761050609,0.9239629636996669,0.8201834862385321,545,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9271735643246711,0.9252413425964978,0.8181818181818182,550,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9271735643246711,0.9252413425964978,0.8181818181818182,550,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9273778920308483,0.9255061429382847,0.8072072072072072,555,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9273778920308483,0.9255061429382847,0.8072072072072072,555,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9295140006437077,0.927740679954293,0.8071428571428572,560,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9295140006437077,0.927740679954293,0.8071428571428572,560,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9303675048355899,0.9287446207398404,0.8053097345132744,565,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9303675048355899,0.9287446207398404,0.8053097345132744,565,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9292864061995479,0.9273474278005042,0.8140350877192982,570,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9292864061995479,0.9273474278005042,0.8140350877192982,570,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9307891332470892,0.9292596188097089,0.8121739130434783,575,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9307891332470892,0.9292596188097089,0.8121739130434783,575,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9310009718172984,0.9293965778435082,0.8137931034482758,580,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9310009718172984,0.9293965778435082,0.8137931034482758,580,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9299156391953277,0.9282493923552613,0.8153846153846154,585,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9299156391953277,0.9282493923552613,0.8153846153846154,585,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9301267468313292,0.928437262017581,0.8101694915254237,590,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9301267468313292,0.928437262017581,0.8101694915254237,590,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.93359375,0.9321765297682164,0.8067226890756303,595,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.93359375,0.9321765297682164,0.8067226890756303,595,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.93478969677209,0.9330750571322619,0.8083333333333333,600,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.93478969677209,0.9330750571322619,0.8083333333333333,600,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9363161332462443,0.9346561184681965,0.8132231404958677,605,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9363161332462443,0.9346561184681965,0.8132231404958677,605,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9352306182531894,0.9337652619107955,0.8147540983606557,610,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9352306182531894,0.9337652619107955,0.8147540983606557,610,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9367627785058977,0.9345521131506194,0.8065040650406504,615,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9367627785058977,0.9345521131506194,0.8065040650406504,615,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9369872005251066,0.9351668428667768,0.7983870967741935,620,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9369872005251066,0.9351668428667768,0.7983870967741935,620,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9368836291913215,0.9346180439814172,0.8064,625,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9368836291913215,0.9346180439814172,0.8064,625,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9390846229832072,0.9370306951955034,0.8095238095238095,630,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9390846229832072,0.9370306951955034,0.8095238095238095,630,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9396437994722955,0.937162951927263,0.7984251968503937,635,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9396437994722955,0.937162951927263,0.7984251968503937,635,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9395441030723488,0.9371912325192557,0.796875,640,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9395441030723488,0.9371912325192557,0.796875,640,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9391131700860358,0.9366465283500596,0.8031007751937984,645,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9391131700860358,0.9366465283500596,0.8031007751937984,645,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9413324494530991,0.9387233095761732,0.8076923076923077,650,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9413324494530991,0.9387233095761732,0.8076923076923077,650,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9422310756972112,0.9394568340722593,0.8061068702290076,655,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9422310756972112,0.9394568340722593,0.8061068702290076,655,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9421350182906552,0.9390941624760438,0.8075757575757576,660,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9421350182906552,0.9390941624760438,0.8075757575757576,660,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9420386409060626,0.939026178249778,0.806015037593985,665,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9420386409060626,0.939026178249778,0.806015037593985,665,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9419419419419419,0.938633943681373,0.808955223880597,670,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9419419419419419,0.938633943681373,0.808955223880597,670,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9428475935828877,0.9399195642246139,0.802962962962963,675,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9428475935828877,0.9399195642246139,0.802962962962963,675,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9440910612654838,0.9411491619696137,0.8058823529411765,680,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9440910612654838,0.9411491619696137,0.8058823529411765,680,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9450033534540577,0.9419117223542832,0.8072992700729927,685,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9450033534540577,0.9419117223542832,0.8072992700729927,685,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9469264360094054,0.9436973644054822,0.8057971014492754,690,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9469264360094054,0.9436973644054822,0.8057971014492754,690,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9458277254374159,0.942373461094567,0.8,695,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9458277254374159,0.942373461094567,0.8,695,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9453993933265925,0.942083315269517,0.7985714285714286,700,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9453993933265925,0.942083315269517,0.7985714285714286,700,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9480081026333559,0.9452765233276439,0.8056737588652483,705,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9480081026333559,0.9452765233276439,0.8056737588652483,705,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9489347311464322,0.9464943841561002,0.8126760563380282,710,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9489347311464322,0.9464943841561002,0.8126760563380282,710,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9495257452574526,0.9469681081790117,0.7944055944055944,715,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9495257452574526,0.9469681081790117,0.7944055944055944,715,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9507974211062097,0.9483507415507263,0.7958333333333333,720,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9507974211062097,0.9483507415507263,0.7958333333333333,720,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9530931339225017,0.9508930211197416,0.8068965517241379,725,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9530931339225017,0.9508930211197416,0.8068965517241379,725,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9557371467483827,0.9535699576638934,0.8027397260273973,730,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9557371467483827,0.9535699576638934,0.8027397260273973,730,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.956343792633015,0.9542607778997442,0.7891156462585034,735,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.956343792633015,0.9542607778997442,0.7891156462585034,735,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9576358045780663,0.9552822600567209,0.7891891891891892,740,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9576358045780663,0.9552822600567209,0.7891891891891892,740,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9585900068446269,0.956798818786708,0.7973154362416107,745,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9585900068446269,0.956798818786708,0.7973154362416107,745,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9605759341789509,0.9585382176513698,0.7973333333333333,750,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9605759341789509,0.9585382176513698,0.7973333333333333,750,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9622252747252747,0.9600285010341869,0.7947019867549668,755,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9622252747252747,0.9600285010341869,0.7947019867549668,755,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9625042999656003,0.9605909816012057,0.7934210526315789,760,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9625042999656003,0.9605909816012057,0.7934210526315789,760,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9634734665747761,0.9613671611232847,0.7947712418300653,765,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9634734665747761,0.9613671611232847,0.7947712418300653,765,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9644459785985502,0.9623577492235025,0.7961038961038961,770,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9644459785985502,0.9623577492235025,0.7961038961038961,770,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9647302904564315,0.9625828628224139,0.7987096774193548,775,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9647302904564315,0.9625828628224139,0.7987096774193548,775,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9653619674402494,0.9631333490656182,0.8025641025641026,780,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9653619674402494,0.9631333490656182,0.8025641025641026,780,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9659958362248439,0.9639623627645785,0.8038216560509555,785,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.9659958362248439,0.9639623627645785,0.8038216560509555,785,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.967327076816128,0.9653807823548928,0.7936708860759494,790,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.967327076816128,0.9653807823548928,0.7936708860759494,790,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.967966573816156,0.9661865893357939,0.7937106918238994,795,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.967966573816156,0.9661865893357939,0.7937106918238994,795,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.968608301360307,0.9666800568385905,0.78375,800,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
+0.968608301360307,0.9666800568385905,0.78375,800,0.75,-180,BvSB,12,"['Elevator Down' 'Elevator Up' 'Jumping Up' 'Running Forward' 'Sitting'
+ 'Sleeping' 'Standing' 'Walking Downstairs' 'Walking Forward'
+ 'Walking Left' 'Walking Right' 'Walking Upstairs']"
