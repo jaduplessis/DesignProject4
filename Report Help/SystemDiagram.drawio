@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T04:42:35.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="QwuMjD9dZh8ns-s4nMKm" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T04:51:49.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="y7TKGT2Zt-JpD-5m_eHi" version="21.1.1" type="github">
   <diagram name="Page-1" id="LFSzCcOkwn5fy_SzWpoG">
     <mxGraphModel dx="1444" dy="2164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,28 +13,29 @@
         <mxCell id="cruTtfsDpUbtnMmeK2p8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9-J86cphxurWLW8eX2XV-2" target="9-J86cphxurWLW8eX2XV-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9-J86cphxurWLW8eX2XV-2" value="&lt;b&gt;Discover new activities and train classification model&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="9-J86cphxurWLW8eX2XV-2" value="&lt;b&gt;Discover new activities and train classifier on labelled data&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="320" y="160" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="cruTtfsDpUbtnMmeK2p8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9-J86cphxurWLW8eX2XV-7" target="9-J86cphxurWLW8eX2XV-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9-J86cphxurWLW8eX2XV-7" value="&lt;b&gt;Predict classifications&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="9-J86cphxurWLW8eX2XV-7" value="&lt;b&gt;Predict activities of remaining unlabelled data&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="440" y="160" width="80" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cruTtfsDpUbtnMmeK2p8-9" value="&lt;div&gt;&lt;b&gt;Re-train &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;classification &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;model&lt;/b&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9-J86cphxurWLW8eX2XV-9" target="9-J86cphxurWLW8eX2XV-7">
+        <mxCell id="cruTtfsDpUbtnMmeK2p8-9" value="&lt;div&gt;&lt;b&gt;Re-train &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;classifier&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9-J86cphxurWLW8eX2XV-9" target="9-J86cphxurWLW8eX2XV-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="140" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="600" y="130" />
               <mxPoint x="480" y="130" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cruTtfsDpUbtnMmeK2p8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9-J86cphxurWLW8eX2XV-9" target="9-J86cphxurWLW8eX2XV-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9-J86cphxurWLW8eX2XV-9" value="&lt;b&gt;Annotate samples based on uncertainty&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="9-J86cphxurWLW8eX2XV-9" value="&lt;b&gt;Create new labels based on the uncertainty of predictions&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="560" y="160" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="cruTtfsDpUbtnMmeK2p8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9-J86cphxurWLW8eX2XV-14" target="cruTtfsDpUbtnMmeK2p8-2">
@@ -48,9 +49,6 @@
         </mxCell>
         <mxCell id="9-J86cphxurWLW8eX2XV-29" value="&lt;div&gt;&lt;b&gt;Anomaly Detection Model:&lt;/b&gt;&lt;b&gt; Ensemble outlier detection&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="933.5" y="330" width="175" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9-J86cphxurWLW8eX2XV-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="300" y="100" width="480" height="220" as="geometry" />
         </mxCell>
         <mxCell id="cruTtfsDpUbtnMmeK2p8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cruTtfsDpUbtnMmeK2p8-2" target="cruTtfsDpUbtnMmeK2p8-3">
           <mxGeometry relative="1" as="geometry" />
@@ -85,9 +83,6 @@
         <mxCell id="cruTtfsDpUbtnMmeK2p8-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cruTtfsDpUbtnMmeK2p8-21" target="cruTtfsDpUbtnMmeK2p8-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cruTtfsDpUbtnMmeK2p8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cruTtfsDpUbtnMmeK2p8-21" target="9-J86cphxurWLW8eX2XV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="cruTtfsDpUbtnMmeK2p8-21" value="Raw accelerometer data taken from the sensors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="195" y="-100" width="90" height="120" as="geometry" />
         </mxCell>
@@ -105,6 +100,9 @@
             <mxPoint x="200" y="60" as="sourcePoint" />
             <mxPoint x="1240" y="60" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cruTtfsDpUbtnMmeK2p8-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="480" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
