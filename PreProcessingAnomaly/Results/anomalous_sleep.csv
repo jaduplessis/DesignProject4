@@ -1,0 +1,6 @@
+Start time,Duration,Number of interruptions,Duration of interruptions,Day of activity,Weekend or weekday,normality_score,Abnormal,
+21/06/2011 22:55,481.0333333,3,53.83333333,Tuesday,0,-3.994870644,TRUE,Multiple interruptions for a long period
+26/06/2011 07:47,2.466666667,0,0,Sunday,1,-0.719033526,Noise,Incorrect result
+18/07/2011 15:09,54.38333333,0,0,Monday,0,-0.969517837,TRUE,Napping on a Monday afternoon is not present in the training set
+22/07/2011 06:36,30.86666667,0,0,Friday,0,-0.75884354,TRUE,"This was due to a large disruption at 5:30am. Because the task lasted longer than 60 mins, it was not classed as a disruption. However, it was unsual to go to back to bed then."
+13/08/2011 23:04,510.0833333,8,26,Saturday,1,-3.534584687,TRUE,Multiple interruptions for a long period
