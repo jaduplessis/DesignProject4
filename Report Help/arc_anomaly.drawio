@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T07:58:54.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="xySUdjeGXNZz5fIO1r-a" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T12:53:31.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="fhyDG8amPLO1CHjykw3w" version="21.2.4" type="github">
   <diagram name="Page-1" id="VQaNYO2VKrX5yNo_5s4D">
     <mxGraphModel dx="794" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,24 @@
         </mxCell>
         <mxCell id="26--hZMdpes1O9Ble08R-10" value="Anomalous events" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="640" y="65" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u4TCaRJy4dtQdSkuZl-O-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u4TCaRJy4dtQdSkuZl-O-4" target="26--hZMdpes1O9Ble08R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4TCaRJy4dtQdSkuZl-O-4" value="&lt;div&gt;Such as:&lt;/div&gt;&lt;div&gt;&amp;nbsp;walking, standing, making breakfast, going to the toilet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="350" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u4TCaRJy4dtQdSkuZl-O-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u4TCaRJy4dtQdSkuZl-O-6" target="26--hZMdpes1O9Ble08R-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4TCaRJy4dtQdSkuZl-O-6" value="&lt;div&gt;Such as:&lt;/div&gt;&lt;div&gt;erratic sleep, falls, general lack of behaviour, not eating&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u4TCaRJy4dtQdSkuZl-O-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u4TCaRJy4dtQdSkuZl-O-9" target="26--hZMdpes1O9Ble08R-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4TCaRJy4dtQdSkuZl-O-9" value="&lt;div&gt;Such as:&lt;/div&gt;&lt;div&gt;time, acc_x, acc_y, acc_z&lt;/div&gt;1, 1.16, -0.19, -0.30&lt;br&gt;2, 1.03, -0.20, -0.38&lt;br&gt;3, 0.91, -0.20, -0.39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
