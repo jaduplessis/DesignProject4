@@ -1,4 +1,4 @@
-# DesignProject4
+# AI Enhanced Anomaly Detection
 Coral Living code
 
 ## Datasets
