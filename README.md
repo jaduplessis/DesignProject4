@@ -1,7 +1,10 @@
 # AI Enhanced Anomaly Detection
-Coral Living code
+Supporting code for the paper "AI Enhanced Anomaly Detection for Supported Living Environments" by A. du Plessis
 
-## Datasets
+## Detailed Description
+Please see the paper for a detailed description of the project [here](./report.pdf).
+
+## Datasets used
 UCS-HAD:
 https://sipi.usc.edu/had/
 
